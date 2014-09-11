@@ -81,7 +81,7 @@ function makeVimeoSlide($title, $subtitle, $video){
 
 function makeVideoSlide($title, $subtitle, $video){
 	
-	echo '<p class="translateDown" style="font-size:36px;color:#CCC;">'.$title.'</p>';
+	echo '<p class="" style="font-size:36px;color:#CCC;">'.$title.'</p>';
 	echo '<br>';
 	echo '<iframe style="border-style:solid;border-width:10px;border-color:#666;" class="" width="820" height="460" ';
 	echo 'src="http://www.youtube.com/embed/'.$video.'?rel=0&autoplay=0&showinfo=0&theme=dark&controls=1" frameborder="0" allowfullscreen></iframe>';
