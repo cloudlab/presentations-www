@@ -240,9 +240,22 @@ function makeVideoSlide($title, $subtitle, $video){
 	</div>
 	
 	
-	
-	
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide(
+		"Why Algorithms?", 
+		"Stabile Center Perforation Study in Processing", 
+		"GCnnlVKjMXo"); ?>
+	</div>
+	
+	<div class="step" data-x="5000" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide(
+		"Why Algorithms?", 
+		"Mechaneu v1 Spherical Patterning", 
+		"l3xxDxlsIdA"); ?>
+	</div>
+
+	
+	<div class="step" data-x="6000" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeVideoSlide(
 		"Why Algorithms?", 
 		"Generative Cellular Simulation, Proxy Design Studio", 
@@ -250,7 +263,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	</div>
 	
 	
-	<div class="step" data-x="5000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="7000" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeVideoSlide(
 		"Why Algorithms?", 
 		"NYU Advanced Media Studio Animation, Proxy Design Studio", 
@@ -258,7 +271,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	</div>
 	
 	
-	<div class="step" data-x="6000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="8000" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeVideoSlide(
 		"Why Algorithms?", 
 		"Force Directed Graph, Proxy Design Studio", 
@@ -266,21 +279,21 @@ function makeVideoSlide($title, $subtitle, $video){
 	</div>
 	
 	
-	<div class="step" data-x="7000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="9000" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeVideoSlide(
 		"Why Algorithms?", 
 		"Sectioning a Force-Directed Graph in Processing, ComputationalGeometry Library", 
 		"2yRFmHEYptA"); ?>
 	</div>
 	
-	<div class="step" data-x="8000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="10000" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeVideoSlide(
 		"Why Algorithms?", 
 		"Kinect Digital Lathe, GSAPP Cloud Lab", 
 		"kNDCIUM-iUk"); ?>
 	</div>
 	
-	<div class="step" data-x="9000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="11000" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeVideoSlide(
 		"Why Algorithms?", 
 		"Eye Tracking Architecture in Processing, Anna Stork Brain Hacking Studio", 
@@ -288,7 +301,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	</div>
 		
 	
-	<div class="step" data-x="10000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="12000" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeVideoSlide(
 		"Why Algorithms?", 
 		"Past Student Work, Search Algorithmic Design", 
@@ -298,7 +311,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<!--Class Schedule -->
 	
-	<div class="step" data-x="12000" data-y="0" data-z="0" data-rotate="0" data-scale="1.0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="13000" data-y="0" data-z="0" data-rotate="0" data-scale="1.0" style="line-height:36px;font-size:24px;">
 	
 		<span style="font-size:40px;line-height:50px;" >
 		Now Code!
@@ -309,7 +322,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<!--Class Schedule -->
 	
-	<div class="step" data-x="13000" data-y="0" data-z="0" data-rotate="0" data-scale="1.0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="14000" data-y="0" data-z="0" data-rotate="0" data-scale="1.0" style="line-height:36px;font-size:24px;">
 		
 		Search Algorithmic Design<Br>
 		<h2>Schedule</h2>
@@ -339,7 +352,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<!-- Questions & Office Hours -->
 	
-	<div  class="step"  data-x="14000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div  class="step"  data-x="15000" data-y="0" style="line-height:36px;font-size:24px;">
 	
 		<span style="font-size:48px;line-height:56px;">
 		<b>Questions and Office Hours</b>
@@ -359,7 +372,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	
 	<!-- Next Class -->
-	<div class="step"  data-x="15000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step"  data-x="16000" data-y="0" style="line-height:36px;font-size:24px;">
 		
 		<span style="font-size:48px;line-height:56px;">
 		<b>Next Workshop: Objects and Behaviors</b>
@@ -371,6 +384,14 @@ function makeVideoSlide($title, $subtitle, $video){
 		<li>Signed up for a Topic</li>
 		<li>Go through Lab #1 on wiki Individually</li>
 	</div>
+	
+	<div class="step" data-x="17000" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide(
+		"Lecture Video", 
+		"Email will follow - please register to receive it!", 
+		"WHsYBz4iFlI"); ?>
+	</div>
+	
     
 </div>
 

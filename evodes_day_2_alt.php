@@ -162,7 +162,7 @@ function makeVideoSlide($title, $subtitle, $video){
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>A4707 Evolutionary Design Day #1</title>
+    <title>A4707 Evolutionary Design Day #2</title>
     
     <meta name="description" content="Design Amplification" />
     <meta name="author" content="Mark Collins" />
@@ -228,17 +228,15 @@ function makeVideoSlide($title, $subtitle, $video){
 		Worlding the World
 		</span>
 		
-		<li>Rhino Grasshopper & Galapagos</li>
-		<li>What/How are we measuring?</li>
+		<li>Measurements Role in Design</li>
 		<li>Intensive vs Extensive</li>
-		<li>Historic Modeling Techniques</li>
-		<li>New Modeling Techniques</li>
-		<li>Fundamentals of Analysis Modeling</li>
+		<li>Modeling the Extensive: Computational Geometry</li>
+		<li>Modeling the Intensive: Data Visualization</li>
 		<br>
-		Workshop time.
+		<b>Workshop time: Working with Data in Grasshopper.</b>
 		
 	</div>
-
+	
 	<div class="step" data-x="2000" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
 		
 		<div style="float:right;">
@@ -249,14 +247,12 @@ function makeVideoSlide($title, $subtitle, $video){
 		Worlding the World
 		</span>
 		
-		<li>Rhino Grasshopper & Galapagos</li>
-		<li>What/How are we measuring?</li>
+		<li>Measurements Role in Design</li>
 		<li>Intensive vs Extensive</li>
-		<li>Historic Modeling Techniques</li>
-		<li>New Modeling Techniques</li>
-		<li>Fundamentals of Analysis Modeling</li>
+		<li>Modeling the Extensive, Computational Geometry</li>
+		<li>Modeling the Intensive, Data Visualization</li>
 		<br>
-		Workshop time.
+		<b>Workshop time: Working with Data in Grasshopper.</b>
 		
 	</div>
 	
@@ -269,12 +265,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	<div class="step" data-x="3000" data-y="0" style="line-height:36px;font-size:24px;">
 
 		<b>Intensive vs Extensive</b>
-		<p style="color:#aaa;">This seminar presents evolutionary systems and models, alongside other iterative 
-		design approaches, as pragmatic and open-ended tools for realizing architectural structures. 
-		Evolution provides a powerful framework and example of how natural systems can bootstrap to 
-		increasingly more sophisticated outcomes.
-		</p>
-		<br>
+		<br><br>
 		<?php addAccentImageWithCreditAndHeight("Atlas", 'images/wtw/intensive_extensive_02.jpg', 620,400,100); ?>
 
 	</div>
@@ -282,12 +273,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	<div class="step" data-x="3000" data-y="0" style="line-height:36px;font-size:24px;">
 
 		<b>Intensive vs Extensive</b>
-		<p style="color:#aaa;">This seminar presents evolutionary systems and models, alongside other iterative 
-		design approaches, as pragmatic and open-ended tools for realizing architectural structures. 
-		Evolution provides a powerful framework and example of how natural systems can bootstrap to 
-		increasingly more sophisticated outcomes.
-		</p>
-		<br>
+		<br><br>
 		<?php addAccentImageWithCreditAndHeight("Atlas", 'images/wtw/intensive_extensive_01.jpg', 620,400,100); ?>
 
 	</div>
@@ -295,12 +281,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	<div class="step" data-x="3000" data-y="0" style="line-height:36px;font-size:24px;">
 
 		<b>Intensive vs Extensive</b>
-		<p style="color:#aaa;">This seminar presents evolutionary systems and models, alongside other iterative 
-		design approaches, as pragmatic and open-ended tools for realizing architectural structures. 
-		Evolution provides a powerful framework and example of how natural systems can bootstrap to 
-		increasingly more sophisticated outcomes.
-		</p>
-		<br>
+		<br><br>
 		<?php addAccentImageWithCreditAndHeight("Atlas", 'images/wtw/intensive_extensive_03.jpg', 620,400,100); ?>
 
 	</div>
@@ -317,7 +298,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		Boolean Logic
 		</p>
@@ -328,7 +309,7 @@ function makeVideoSlide($title, $subtitle, $video){
 
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		First 3d movie was modeled and rendered this way
 		</p>
@@ -339,7 +320,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		Platonic Solids
 		</p>
@@ -350,7 +331,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		Geometric construct
 		</p>
@@ -361,7 +342,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		Bad conditions
 		</p>
@@ -372,7 +353,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		NURBS Paradigm
 		</p>
@@ -383,7 +364,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		NURBS Paradigm equations
 		</p>
@@ -394,7 +375,7 @@ function makeVideoSlide($title, $subtitle, $video){
 
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		NURBS Paradigm equations
 		</p>
@@ -405,7 +386,7 @@ function makeVideoSlide($title, $subtitle, $video){
 
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		NURBS Paradigm equations
 		</p>
@@ -416,7 +397,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		NURBS Paradigm equations
 		</p>
@@ -427,7 +408,7 @@ function makeVideoSlide($title, $subtitle, $video){
 
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		UV Mapping
 		</p>
@@ -435,76 +416,10 @@ function makeVideoSlide($title, $subtitle, $video){
 		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_07a.jpg', 600,400,100); ?>
 
 	</div>
-	
+
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
-		<p style="color:#aaa;">
-		UV Mapping
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_07b.jpg', 600,400,100); ?>
-
-	</div>
-	
-	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>Historic Modeling Techniques</b>
-		<p style="color:#aaa;">
-		UV Mapping
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_08a.jpg', 600,400,100); ?>
-
-	</div>
-	
-	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>Historic Modeling Techniques</b>
-		<p style="color:#aaa;">
-		UV Mapping
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_08b.jpg', 600,400,100); ?>
-
-	</div>
-	
-	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>Historic Modeling Techniques</b>
-		<p style="color:#aaa;">
-		UV Mapping
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_08c.jpg', 600,400,100); ?>
-
-	</div>
-	
-	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>Historic Modeling Techniques</b>
-		<p style="color:#aaa;">
-		UV Mapping
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_09a.jpg', 600,400,100); ?>
-
-	</div>
-	
-	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>Historic Modeling Techniques</b>
-		<p style="color:#aaa;">
-		UV Mapping
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_09b.jpg', 600,400,100); ?>
-
-	</div>
-	
-	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		UV Mapping
 		</p>
@@ -515,7 +430,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		Sub-division Surface
 		</p>
@@ -526,7 +441,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		Sub-division Surface
 		</p>
@@ -537,7 +452,7 @@ function makeVideoSlide($title, $subtitle, $video){
 
 	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Historic Modeling Techniques</b>
+		<b>Modeling the Extensive: Computational Geometry</b>
 		<p style="color:#aaa;">
 		Sub-division Surface
 		</p>
@@ -545,139 +460,140 @@ function makeVideoSlide($title, $subtitle, $video){
 		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_12.jpg', 600,400,100); ?>
 
 	</div>
-
-	<!-- Where techniques are going -->
-		<!-- Geometric reconstruction, development surfaces -->
-		<!-- Anisotropic Polygon Remeshing -->	
-
-	<div class="step" data-x="5000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>Future Development</b>
-		<p style="color:#aaa;">
-		Sub-division Surface
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_13.jpg', 600,400,100); ?>
-
-	</div>
-
-	<div class="step" data-x="5000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>Future Development</b>
-		<p style="color:#aaa;">
-		Sub-division Surface
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_14.jpg', 600,400,100); ?>
-
-	</div>
-
-	<div class="step" data-x="5000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>Future Development</b>
-		<p style="color:#aaa;">
-		Sub-division Surface
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_15.jpg', 600,400,100); ?>
-
-	</div>
-
-	<div class="step" data-x="5000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>Future Development</b>
-		<p style="color:#aaa;">
-		Sub-division Surface
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_16.jpg', 600,400,100); ?>
-
-	</div>
-
-	<div class="step" data-x="5000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>Future Development</b>
-		<p style="color:#aaa;">
-		Sub-division Surface
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_17.jpg', 600,400,100); ?>
-
-	</div>
+	
 	
 	<div class="step" data-x="5000" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<b>Future Development</b>
-		<p style="color:#aaa;">
-		Sub-division Surface
-		</p>
+		<b>Modeling the Intensive: Data Visualization</b>
 		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_18.jpg', 600,400,100); ?>
-
-	</div>
-
-	<div class="step" data-x="5000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>Future Development</b>
-		<p style="color:#aaa;">
-		Sub-division Surface
-		</p>
 		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/geom_19.jpg', 600,400,100); ?>
-
-	</div>
-
-	<!-- How we do all of this -->
-		<!-- Ray Casting -->
-		<!-- Concept of Sampling -->
-
-	<div class="step" data-x="6000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>How we do it</b>
-		<p style="color:#aaa;">
-		Sub-division Surface
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/analysis_01.jpg', 600,400,100); ?>
-
-	</div>
-
-	<div class="step" data-x="6000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>How we do it</b>
-		<p style="color:#aaa;">
-		Sub-division Surface
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/analysis_02.jpg', 600,400,100); ?>
-
-	</div>
-
-	<div class="step" data-x="6000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>How we do it</b>
-		<p style="color:#aaa;">
-		Sub-division Surface
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/analysis_03.jpg', 600,400,100); ?>
-
-	</div>
-
-	<div class="step" data-x="6000" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<b>How we do it</b>
-		<p style="color:#aaa;">
-		Sub-division Surface
-		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Boolean Logic", 'images/wtw/analysis_04.jpg', 600,400,100); ?>
-
+		The Geometry of Performance:<br>
+		<li>False Color Representation</li>
+		<li>Isometric Curves</li>
+		<li>Octree and Quadtree Spatial Partitions</li>
+		
 	</div>	
+	
+
+	
+	<div class="step" data-x="6000" data-y="0" style="line-height:36px;font-size:24px;">
+
+		<b>Modeling the Intensive: Data Visualization</b> <br>
+		<p style="color:#aaa;">
+		False Color Representation, 2D
+		</p>
+		<br><br>
+		<?php addAccentImageWithCreditAndHeight("False Color Representation of Wind Vorticity (local spinning motion)", 'images/wtw/zha-fig4.jpg', 600,400,100); ?>
+
+	</div>
+	
+	<div class="step" data-x="6000" data-y="0" style="line-height:36px;font-size:24px;">
+
+		<b>Modeling the Intensive: Data Visualization</b> <br>
+		<p style="color:#aaa;">
+		False Color Representation, 3D
+		</p>
+		<br><br>
+		<?php addAccentImageWithCreditAndHeight("Radiance Luminance False-Color rendering facing the Mall, LMN Tech Studio", 'images/wtw/Med-Mart-Daylight-Glare.png', 600,400,100); ?>
+
+	</div>
+	
+	
+	<div class="step" data-x="7000" data-y="0" style="line-height:36px;font-size:24px;">
+
+		<b>Modeling the Intensive: Data Visualization</b> <br>
+		<p style="color:#aaa;">
+		Isometric Curves, 2D
+		</p>
+		<br><br>
+		<?php addAccentImageWithCreditAndHeight("Iso Representation", 'images/wtw/Loop_isallobaric_tendencies.gif', 600,400,100); ?>
+
+	</div>
+	
+	<div class="step" data-x="7000" data-y="0" style="line-height:36px;font-size:24px;">
+
+		<b>Modeling the Intensive: Data Visualization</b> <br>
+		<p style="color:#aaa;">
+		Isometric Curves, 3D
+		</p>
+		<br><br>
+		<?php addAccentImageWithCreditAndHeight("Electrostatic potential of C60. Contours indicate charge on 3D surface", 'images/wtw/b712694h-f2.gif', 600,400,100); ?>
+
+	</div>
+	
+	<div class="step" data-x="8000" data-y="0" style="line-height:36px;font-size:24px;">
+
+		<b>Modeling the Intensive: Data Visualization</b> <br>
+		<p style="color:#aaa;">
+		Quadtree Partitions, 2D
+		</p>
+		<br><br>
+		<?php addAccentImageWithCreditAndHeight("Quad Tree Generation", 'images/wtw/RTEmagicC_Octree_jpg_03.jpg', 600,400,100); ?>
+
+	</div>
+	
+	<div class="step" data-x="8000" data-y="0" style="line-height:36px;font-size:24px;">
+
+		<b>Modeling the Intensive: Data Visualization</b> <br>
+		<p style="color:#aaa;">
+		Octree Partitions, 3D
+		</p>
+		<br><br>
+		<?php addAccentImageWithCreditAndHeight("Oct Tree", 'images/wtw/Octree2.png', 820,480,0); ?>
+
+	</div>
+	
+	<div class="step" data-x="8000" data-y="0" style="line-height:36px;font-size:24px;">
+
+		<b>Modeling the Intensive: Data Visualization</b> <br>
+		<p style="color:#aaa;">
+		Octree Partitions, 3D
+		</p>
+		<br><br>
+		<?php addAccentImageWithCreditAndHeight("Automatically generated Octree mesh around a complex airplane model, Jens Zudrop", 'images/wtw/octree_mesh.png', 820,400,0); ?>
+
+	</div>
+
+	<div class="step" data-x="8000" data-y="0" style="line-height:36px;font-size:24px;">
+
+		<b>Modeling the Intensive: Data Visualization</b> <br>
+		<p style="color:#aaa;">
+		Voronoi Partitioning, 2D
+		</p>
+		<br><br>
+		<?php addAccentImageWithCreditAndHeight("Voronoi Generation", 'images/wtw/vor2.png', 600,400,100); ?>
+
+	</div>
+
+	<div class="step" data-x="8000" data-y="0" style="line-height:36px;font-size:24px;">
+
+		<b>Modeling the Intensive: Data Visualization</b> <br>
+		<p style="color:#aaa;">
+		Voronoi Partitioning, 2D
+		</p>
+		<br><br>
+		<?php addAccentImageWithCreditAndHeight("Robot Path derived from Voronoi of Campus Plan, CU Computer Science Path Planner", 'images/wtw/path.jpg', 600,400,100); ?>
+
+	</div>
+		
+
+	<div class="step" data-x="8000" data-y="0" style="line-height:36px;font-size:24px;">
+
+		<b>Modeling the Intensive: Data Visualization</b> <br>
+		<p style="color:#aaa;">
+		Voronoi Partitioning, 3D
+		</p>
+		<br><br>
+		<?php addAccentImageWithCreditAndHeight("Voronoi Morphologies, MATSYS 2006", 'images/wtw/drawings_01_voronoi3d.jpg', 600,400,100); ?>
+
+	</div>
+		
+	
+	
 	
 	<!-- Lets Workshop -->
 
-	<div class="step" data-x="7000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="9000" data-y="0" style="line-height:36px;font-size:24px;">
 
 		<b>Workshop time!</b>
 		<br>
@@ -692,7 +608,7 @@ function makeVideoSlide($title, $subtitle, $video){
 
 	<!--Class Schedule -->
 	
-	<div class="step" data-x="8000" data-y="0" data-z="0" data-rotate="0" data-scale="1.0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="10000" data-y="0" data-z="0" data-rotate="0" data-scale="1.0" style="line-height:36px;font-size:24px;">
 		A4707 Evolutionary Design<Br>
 		<h2>Schedule</h2>
 
@@ -734,14 +650,15 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<!-- Next Class -->
 	
-	<div class="step"  data-x="9000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step"  data-x="11000" data-y="0" style="line-height:36px;font-size:24px;">
 
 		<span style="font-size:48px;line-height:56px;">
-		<b>Workshop #2, Ecotect Acoustics and Airflow</b>
+		<b>Workshop #2, Ecotect</b>
 		</span>
 		<br>
 		<b>For Next Week</b>		
 		<li>Bring Charged Laptop</li>
+		<li>Download and Install Autodesk Ecotect (free edu edition)</li>
 	</div>
     
 </div>

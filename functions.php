@@ -16,6 +16,13 @@ function addAccentImageWithCreditAndHeight($credit, $image, $width, $height, $of
 	echo '<p style="font-size:20px;margin-top:'. 40 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
 }
 
+function addRecessedImage($image, $width, $height, $left){
+    echo '<div class="translateUp" style="position:relative;left:'.$left.'px;width:'.$width.'px;height:'.$height.'px;" >';
+	echo '<img src="'.$image.'"  width="100%"/>';
+    echo '</div>';
+	echo '<br>';
+}
+
 function makeGenericSlide($title, $credit, $image){	
 	makeGenericSlideWithHeight($title, $credit, $image, 400);
 }
@@ -27,6 +34,17 @@ function makeGenericSlideWithHeight($title, $credit, $image, $height){
 	echo '<br>';
 	echo '<p style="font-size:20px;margin-top:'. -60 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
 }
+
+function makeRecessiveSlideWithHeight($title, $credit, $image, $height){
+	echo '<span style="font-size:36px;color:#CCC;">'.$title.'</span>';
+	echo '<br>';
+	echo '<p style="font-size:20px;margin-top:'. 0 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
+	echo '<br>';
+    echo '<div class="translateUp" style="position:relative;top:10px;left:'.$left.'px;width:'.$width.'px;height:'.$height.'px;" >';
+	echo '<img src="'.$image.'"  width="100%"/>';
+    echo '</div>';echo '<br>';
+}
+
 
 function makeImageGrid($title, $credit, $images, $columns){
 	
@@ -55,7 +73,7 @@ function makeImageGrid($title, $credit, $images, $columns){
 	
 	echo '</div>';
     echo '<br>';
-	echo '<p style="font-size:20px;margin-top:-60px;text-align:right;color:#999;">'.$credit.'</p>';
+	echo '<p style="font-size:20px;line-height:24px;margin-top:-40px;text-align:right;color:#999;">'.$credit.'</p>';
 }
 
 
