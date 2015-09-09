@@ -1001,7 +1001,7 @@ function makeVideoSlide($title, $subtitle, $video){
 
 	<div class="step"  data-x="9500" data-y="0" style="line-height:36px;font-size:24px;">
 	
-	 			<span style="font-size:48px;line-height:56px;">
+	 	<span style="font-size:48px;line-height:56px;">
 		<b>Our Biomimetic Future</b>
 		</span>
 		<br>
@@ -1030,7 +1030,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	<div class="step" data-x="9500" data-y="1000" style="line-height:36px;font-size:24px;">	
 	 	<?php makeGenericSlideWithHeight(
 	 	"Our Biomimetic Future",
-	 	"Arup Engineers & Within Lab, 2014", 
+	 	"Within Lab and Arup Engineers, 2014", 
 	 	"images/evodes/Arup-3d-printed-steel_dezeen_468_1.jpg", 
 	 	"559"); ?>
 	</div>

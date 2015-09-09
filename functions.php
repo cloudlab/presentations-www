@@ -45,35 +45,39 @@ function makeRecessiveSlideWithHeight($title, $credit, $image, $height){
     echo '</div>';echo '<br>';
 }
 
-
 function makeImageGrid($title, $credit, $images, $columns){
 	
-	echo '<span style="font-size:36px;color:#CCC;">'.$title.'</span>';
+		if($title != ""){
+echo '<span style="font-size:36px;color:#CCC;">'.$title.'</span>';
 	echo '<br>';
-
+}
 	$i = 0;
 	$w = 960;
+	$aw = (($w - $columns*20)/$columns) ;
 	echo '<div class="" style="margin-left:-70px;width:'.$w.'px;height:500px;">';
-	echo '<div>';
+	echo '<div style="height:'.($aw*.75).';">';
 	foreach($images as $image){
 		
 		// make image container
 		$i++;
 		echo '<div style="float:left;padding:10px;">';
-		echo '<img src="'.$image.'"  width="'. (($w - $columns*20)/$columns) .'"/>';
+		echo '<img src="'.$image.'"  width="'. $aw .'"/>';
 		echo '</div>';
 		if($i % $columns == 0){
 			if(count($images) > $i){
 				echo '</div>';
-				echo '<div style="">';
+				echo '<br>';
+				echo '<div style="height:250px;">';
 			}
 		}
 	}
 	echo '</div>';
 	
 	echo '</div>';
+	if($credit != ""){
     echo '<br>';
-	echo '<p style="font-size:20px;line-height:24px;margin-top:-40px;text-align:right;color:#999;">'.$credit.'</p>';
+	echo '<p style="font-size:20px;margin-top:-40px;text-align:right;color:#999;">'.$credit.'</p>';
+	}
 }
 
 
