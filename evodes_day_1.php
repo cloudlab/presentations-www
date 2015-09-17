@@ -1,160 +1,5 @@
 <?php 
-
-
-function makeTriSlideWithHeight($title, $credit, $imageA, $imageB, $imageC){
-	
-	echo '<div class="translateDown" style="float:left;position:relative; left:-100px; top:-30px;">';
-	echo '<span style="font-size:36px;color:#CCC;">'.$title.'</span>';
-	echo '</div>';
-	echo '<br>';
-	
-	echo '<div class="translateUp" style="float:right;position:relative; top:50px; right:50px; width:320px; height:240px;">';
-	echo '<img src='.$imageA.' width=100%><br><br>GSAPP<br><span style="font-size:10pt;line-height:11pt;">The Avery Library and GSAPP</span>';
-	echo '</div>';
-	
-	echo '<div class="translateDown" style="float:left;position:relative; left:-120px; top:50px; right:0px; width:480px; height:340px;">';
-	echo '<img src='.$imageB.' width=100%><br><br>Studio Culture<br><span style="font-size:10pt;line-height:11pt;">GSAPP Studio Workspace</span>';
-	echo '</div>';
-	
-	echo '<div class="" style="float:right;position:relative; top:0px; right:-120px; width:620px; height:160px;">';
-	echo '<img src='.$imageC.' width=100%><br>Computing<br><span style="font-size:10pt;line-height:11pt;">From Microsoft Being Human</span>';
-	echo '</div>';
-
- }
-
-
-function makeMajorMinorSlideWithHeight($title, $credit, $imageMajor, $imageMinor, $commentMinor, $height){
-	echo '<div class="translateDown" style="float:left;position:relative; left:-100px; top:-30px;">';
-	echo '<span style="font-size:36px;color:#CCC;">'.$title.'</span>';
-	echo '</div>';
-	echo '<br>';
-	echo '<br>';	
-	echo '<div class="translateUp" style=";float:right;position:relative; top:-40px; right:0px; width:320px; padding:20px;">';
-	echo '<img src=\''.$imageMinor.'\' width=100%>';
-	
-		echo '<div style="float:left;position:relative;left:0px;top:0px;height:40px;">';
-			echo '<span style="font-size:12pt;line-height:14pt;color:#000;"><br>'.$commentMinor . '</span>';
-		echo '</div>';
-		echo '<div style="float:left;position:relative;left:-1px;top:-41px;">';
-			echo '<span style="font-size:12pt;line-height:14pt;;color:#fff;"><br>'.$commentMinor . '</span>';
-		echo '</div>';
-	echo '</div>';
-
-    echo '<div class="" style="width:820px;height:'.$height.'px;background-image:url(\''.$imageMajor.'\');" ></div>';
-	echo '<br>';
-	echo '<p style="font-size:20px;margin-top:'. -80 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
-}
-
-
-
-function makeMajorMinorSlideWithHeightWide($title, $credit, $imageMajor, $imageMinor, $commentMinor, $height){
-	echo '<div class="translateUp" style="float:left;position:relative; top:0px; right:0px; >';
-	echo '<span style="font-size:36px;color:#CCC;">'.$title.'</span>';
-	echo '</div>';
-	echo '<br>';
-	echo '<div class="translateUp" style="bacground-color:#000;float:right;position:relative; top:0px; right:0px; width:320px; height:440px;">';
-	echo '<img src='.$imageMinor.' width=100%>';
-		echo '<div style="float:left;position:relative;left:0px;top:0px;height:40px;">';
-			echo '<span style="font-size:12pt;line-height:14pt;color:#000;"><br>'.$commentMinor . '</span>';
-		echo '</div>';
-		echo '<div style="float:left;position:relative;left:-1px;top:-41px;">';
-			echo '<span style="font-size:12pt;line-height:14pt;;color:#fff;"><br>'.$commentMinor . '</span>';
-		echo '</div>';	echo '</div>';
-
-    echo '<div class="" style="width:820px;height:'.$height.'px;background-image:url(\''.$imageMajor.'\');" ></div>';
-	echo '<br>';
-	echo '<p style="font-size:20px;margin-top:'. -60 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
-}
-
-function addImageWithCredit($credit, $image, $height){
-    echo '<div class="translateUp" style="width:820px;height:'.$height.'px;background-image:url(\''.$image.'\');" ></div>';
-	echo '<br>';
-	echo '<p style="font-size:20px;margin-top:'. 40 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
-}
-
-function addAccentImageWithCredit($credit, $image, $height){
-    addAccentImageWithCreditAndHeight($credit, $image, 600, $height, 300);
-}
-
-function addAccentImageWithCreditAndHeight($credit, $image, $width, $height, $offset){
-    echo '<div class="translateUp" style="position:relative;left:'.$offset.'px;width:'.$width.'px;height:'.$height.'px;background-image:url(\''.$image.'\');" ></div>';
-	echo '<br>';
-	echo '<p style="font-size:20px;margin-top:'. 40 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
-}
-
-function makeGenericSlide($title, $credit, $image){	
-	makeGenericSlideWithHeight($title, $credit, $image, 400);
-}
-
-function makeGenericSlideWithHeight($title, $credit, $image, $height){
-	echo '<span style="font-size:36px;color:#CCC;">'.$title.'</span>';
-	echo '<br>';
-    echo '<div class="translateDown" style="width:820px;height:'.$height.'px;background-image:url(\''.$image.'\');" ></div>';
-	echo '<br>';
-	echo '<p style="font-size:20px;margin-top:'. -60 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
-}
-
-function makeImageGrid($title, $credit, $images, $columns){
-	
-	echo '<span style="font-size:36px;color:#CCC;">'.$title.'</span>';
-	echo '<br>';
-
-	$i = 0;
-	$w = 960;
-	echo '<div class="" style="margin-left:-70px;width:'.$w.'px;height:500px;">';
-	echo '<div>';
-	foreach($images as $image){
-		
-		// make image container
-		$i++;
-		echo '<div style="float:left;padding:10px;">';
-		echo '<img src="'.$image.'"  width="'. (($w - $columns*20)/$columns) .'"/>';
-		echo '</div>';
-		if($i % $columns == 0){
-			if(count($images) > $i){
-				echo '</div>';
-				echo '<div style="">';
-			}
-		}
-	}
-	echo '</div>';
-	
-	echo '</div>';
-    echo '<br>';
-	echo '<p style="font-size:20px;margin-top:-60px;text-align:right;color:#999;">'.$credit.'</p>';
-}
-
-
-
-function makeThemeSlide($title, $subtitle, $image){
-	if($image == "")
-		$image = "images/Ishiguro1.jpg";
-    echo '<br><Br><Br><span style="font-size:30px;color:#888;">'.$title.'</span><br>';
-    echo '<p align="center" style="text-size:40px;"><b class="">'.$subtitle.'</b></p>';
-    echo '<div class="translateDown" style="float:left;position:relative; top:-80; left:350px; width:640px; height: 400px;background-image:url(\''.$image.'\');"></div>';
-}
-
-function makeVimeoSlide($title, $subtitle, $video){
-	echo '<p class="translateDown" style="font-size:36px;color:#CCC;">'.$title.'</p>';
-	echo '<br>';
-
-	echo '<iframe style="border-style:solid;border-width:10px;border-color:#666;"  src="http://player.vimeo.com/video/'.$video.'" 
-			width="820" height="460" frameborder="0" 
-			webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
-	echo '<br>';
-	echo '<p  class="translateDown" style="font-size:20px;margin-top:60px;text-align:right;color:#999;">'.$subtitle.'</p>';
-}
-
-function makeVideoSlide($title, $subtitle, $video){
-	
-	echo '<p class="translateDown" style="font-size:36px;color:#CCC;">'.$title.'</p>';
-	echo '<br>';
-	echo '<iframe style="border-style:solid;border-width:10px;border-color:#666;margin-top:20px;" class="" width="820" height="460" ';
-	echo 'src="http://www.youtube.com/embed/'.$video.'?rel=0&autoplay=0&showinfo=0&theme=dark&controls=1" frameborder="0" allowfullscreen></iframe>';
-	echo '<br>';
-	echo '<p  class="translateDown" style="font-size:20px;margin-top:60px;text-align:right;color:#999;">'.$subtitle.'</p>';
-}
-
+include 'functions.php';
 ?>
 
 <html lang="en">
@@ -182,12 +27,13 @@ function makeVideoSlide($title, $subtitle, $video){
 
 <div id="impress">
 
+	
 	<!-- BEGIN PRESENTATION -->
-		
+	
 	<div id="start" class="step slide" data-x="0" data-y="0" style="background-image:url('images/evodes-intro-cover.png');">
         
-        <h2><b>A4707 Evolutionary Design</b></h2>
-        Day/Time: Th 6:00pm - 8:00pm<br>
+     <h2><b>A4707 Evolutionary Design</b></h2>
+        Day/Time: Th 7:00pm - 9:00pm<br>
 		Location: 115 Avery Hall<Br>
 		Arch Technology Sequence, Elective<Br>
 
@@ -201,16 +47,14 @@ function makeVideoSlide($title, $subtitle, $video){
         
     </div>
 
-
+	
 	<!-- Welcome -->
 	
 	<div class="step" data-x="500" data-y="0" style="line-height:36px;font-size:24px;">
-	
-	
 		<span style="font-size:48px;">Welcome!</span>
-	
-	
 	</div>
+
+	<!-- Goals -->
 	
 	<div class="step"  data-x="1000" data-y="0" style="line-height:48px;font-size:36px;">
 		<p>Goals for Today</p>
@@ -219,7 +63,6 @@ function makeVideoSlide($title, $subtitle, $video){
 		<li>Crash Course in Evolutionary Design Vocabulary</li>
 		<li>For Next Class...</li>
 	</div>	 
-	
 	
 	
 	<!-- Intro to ourselves -->
@@ -275,10 +118,14 @@ function makeVideoSlide($title, $subtitle, $video){
 		<p style="color:#aaa;">This seminar presents evolutionary systems and models, alongside other iterative 
 		design approaches, as pragmatic and open-ended tools for realizing architectural structures. 
 		Evolution provides a powerful framework and example of how natural systems can bootstrap to 
-		increasingly more sophisticated outcomes.
+		increasingly sophisticated outcomes.<br><br>
 		</p>
-		<br>
-		<?php addAccentImageWithCreditAndHeight("Class Syllabus", 'images/evodes-SyllabusAccent.jpg', 620,350,100); ?>
+		<?php
+			$imagesb = array(
+		'images/evodes/EvoDes_Syllabus-1.png',
+		'images/evodes/EvoDes_Syllabus-2.png');
+makeImageGrid("", "", $imagesb, 3); 
+	?>
 
 	</div>
 	
@@ -288,7 +135,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	<div class="step" data-x="2500" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
 		<b style="#fff;">Course Goals & Objectives</b>
 
-		<li><span style="color:#fff;">Exploration of evolutionary paradigm as well as other iterative design methodologies</span></li>
+		<span style="color:#fff;"><li>Exploration of evolutionary and iterative design paradigm</li></span>
 		<li>Learn to use simulation tools and apply them to design problems</span></li>   <!-- false color? -->
 		<li>Develop a critical approach to the use of simulation tools</li>		<!-- world modeler? -->
 		<li>Examine the gap between digital models and real world physical processes</li>	<!-- air flow? -->
@@ -305,7 +152,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	<div class="step" data-x="2500" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
 		<b style="#fff;">Course Goals & Objectives</b>
 
-		<li>Exploration of evolutionary paradigm as well as other iterative design methodologies</li>
+		<li>Exploration of evolutionary and iterative design paradigm</li>
 		<li><span style="color:#fff;">Learn to use simulation tools and apply them to design problems</span></li>   <!-- false color? -->
 		<li>Develop a critical approach to the use of simulation tools</li>		<!-- world modeler? -->
 		<li>Examine the gap between digital models and real world physical processes</li>	<!-- air flow? -->
@@ -321,7 +168,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	<div class="step" data-x="2500" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
 		<b style="#fff;">Course Goals & Objectives</b>
-		<li>Exploration of evolutionary paradigm as well as other iterative design methodologies</li>
+		<li>Exploration of evolutionary and iterative design paradigm</li>
 		<li>Learn to use simulation tools and apply them to design problems</li>   <!-- false color? -->
 		<li><span style="color:#fff;">Develop a critical approach to the use of simulation tools</span></li>		<!-- world modeler? -->
 		<li><span style="color:#fff;">Examine the gap between digital models and real world physical processes</span></li>	<!-- air flow? -->
@@ -338,7 +185,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	<div class="step" data-x="2500" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
 		<b style="#fff;">Course Goals & Objectives</b>
 
-		<li>Exploration of evolutionary paradigm as well as other iterative design methodologies</li>
+		<li>Exploration of evolutionary and iterative design paradigm</li>
 		<li>Learn to use simulation tools and apply them to design problems</li>   <!-- false color? -->
 		<li>Develop a critical approach to the use of simulation tools</li>		<!-- world modeler? -->
 		<li>Examine the gap between digital models and real world physical processes</li>	<!-- air flow? -->
@@ -355,7 +202,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	<div class="step" data-x="2500" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
 		<b style="#fff;">Course Goals & Objectives</b>
 
-		<li>Exploration of evolutionary paradigm as well as other iterative design methodologies</li>
+		<li>Exploration of evolutionary and iterative design paradigm</li>
 		<li>Learn to use simulation tools and apply them to design problems</li>   <!-- false color? -->
 		<li>Develop a critical approach to the use of simulation tools</li>		<!-- world modeler? -->
 		<li>Examine the gap between digital models and real world physical processes</span></li>	<!-- air flow? -->
@@ -371,109 +218,78 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	
 	<!-- Workshop Recap -->
-
 	
 	<div class="step" data-x="3000" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
 		
 		<div style="float:right;">
-			<?php addAccentImageWithCreditAndHeight("Galapagos Genetic Solver for Rhino", 'images/dd/Galapagos_Interface_Iteration3_sm.png', 400, 253, 50); ?>
+			<?php addAccentImageWithCreditAndHeight("Galapagos Genetic Solver for Rhino", 'images/dd/Galapagos_Interface_Iteration3_sm.png', 400, 400, 50); ?>
 		</div>
 		
-		Workshop software include...
+		Workshops include...<br><br>
+		
+		Software Category<br>
+		
+		<span style="color:#fff;"><li>Evolutionary Solvers</li></span>
+		<li>Surface Analysis and Data Analysis</li>
+		<li>Environmental Modeling</li>
+		<li>Physics Based Modeling</li>
+
+		<br>
+		Workshop Software<br>
 
 		<span style="color:#fff;"><li>Rhino Grasshopper & Galapagos</li></span>
-		<li>Autodesk Ecotect & Geco</li>
-		<li>Winair</li>
-		<li>Dessault Solidworks</li>				<!-- solidworks fea -->
-		<li>Kangaroo Physics for Rhino</li>		<!-- kangaroo -->
- 		
-		<br>
-		Performance algorithms include...
-		
-		<li>Finite Element Analysis</li>
-		<li>Solar Analysis</li>
-		<li>Acoustic Analysis</li>
-		<li>Computational Fluid Dynamics</li> 
-		<li>Physics Based Modeling</li>
-
+		<li>Rhino Grasshopper</li>
+		<li>Ecotect & Geco for Grasshopper</li>
+		<li>Kangaroo Physics for Rhino Grasshopper</li>		<!-- kangaroo -->
 	</div>
-
-		
+	
 	<div class="step" data-x="3000" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
 		
 		<div style="float:right;">
-			<?php addAccentImageWithCreditAndHeight("Solar Design in Ecotect", 'images/dd/ecotect-2.png', 400, 337, 50); ?>
+			<?php addAccentImageWithCreditAndHeight("Solar Design in Ecotect", 'images/dd/ecotect-2.png', 400, 400, 50); ?>
 		</div>
 		
-		Workshop software include...
+		Workshops include...<br><br>
 
-		<li>Rhino Grasshopper & Galapagos</li>
-		<span style="color:#fff;"><li>Autodesk Ecotect & Geco</li>
-		<li>Winair</li></span>
-		<li>Dessault Solidworks</li>				<!-- solidworks fea -->
-		<li>Kangaroo Physics for Rhino</li>		<!-- kangaroo -->
- 		
-		<br>
-		Performance algorithms include...
-
-		<li>Finite Element Analysis</li>
-		<span style="color:#fff;"><li>Solar Analysis</li>
-		<li>Acoustic Analysis</li></span>
-		<li>Computational Fluid Dynamics</li>
+		Software Category<br>
+		
+		<li>Evolutionary Solvers</li></span>
+		<li>Surface Analysis and Data Analysis</li>
+		<span style="color:#fff;"><li>Environmental Modeling</li></span>
 		<li>Physics Based Modeling</li>
 
-	</div>
-
-	<div class="step" data-x="3000" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
-		
-		<div style="float:right;">
-			<?php addAccentImageWithCreditAndHeight("Finite Element Analysis in Solidworks", 'images/dd/FEA_isocrv_sm.jpg', 400, 253, 50); ?>
-		</div>
-		
-		Workshop software include...
+		<br>
+		Workshop Software<br>
 
 		<li>Rhino Grasshopper & Galapagos</li>
-		<li>Autodesk Ecotect & Geco</li>
-		<li>Winair</li>
-		<span style="color:#fff;"><li>Dessault Solidworks</li>	</span>			<!-- solidworks fea -->
-		<li>Kangaroo Physics for Rhino</li>		<!-- kangaroo -->
- 		
-		<br>
-		Performance algorithms include...
-		
-		<span style="color:#fff;"><li>Finite Element Analysis</li></span>
-		<li>Solar Analysis</li>
-		<li>Acoustic Analysis</li>
-		<li>Computational Fluid Dynamics</li> 
-		<li>Physics Based Modeling</li>
-
+		<li>Rhino Grasshopper</li>
+		<span style="color:#fff;"><li>Ecotect & Geco for Grasshopper</li></span>
+		<li>Kangaroo Physics for Rhino Grasshopper</li>		<!-- kangaroo -->
 	</div>
-
+	
 	<div class="step" data-x="3000" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
 		
 		<div style="float:right;">
 			<?php addAccentImageWithCreditAndHeight("Kangaroo Physics Examples", 'images/dd/kangaroo.PNG', 400, 400, 50); ?>
 		</div>
 		
-		Workshop software include...
-
-		<li>Rhino Grasshopper & Galapagos</li>
-		<li>Autodesk Ecotect & Geco</li>
-		<li>Winair</li>
-		<li>Dessault Solidworks</li>				<!-- solidworks fea -->
-		<span style="color:#fff;"><li>Kangaroo Physics for Rhino</li></span>		<!-- kangaroo -->
- 		
-		<br>
-		Performance algorithms include...
+		Workshops include...<br><br>
 		
-		<li>Finite Element Analysis</li>
-		<li>Solar Analysis</li>
-		<li>Acoustic Analysis</li>
-		<li>Computational Fluid Dynamics</li> 
+		Software Category<br>
+		
+		<li>Evolutionary Solvers</li></span>
+		<li>Surface Analysis and Data Analysis</li>
+		<li>Environmental Modeling</li>
 		<span style="color:#fff;"><li>Physics Based Modeling</li></span>
 
-	</div>
+		<br>		
+		Workshop Software<br>
 
+		<li>Rhino Grasshopper & Galapagos</li>
+		<li>Rhino Grasshopper</li>
+		<li>Ecotect & Geco for Grasshopper</li>
+		<span style="color:#fff;"><li>Kangaroo Physics for Rhino Grasshopper</li></span>		<!-- kangaroo -->
+	</div>
 	
 	<!-- Project -->
 
@@ -489,6 +305,22 @@ function makeVideoSlide($title, $subtitle, $video){
 		<span style="color:aaa;margin-left:30px;">Ex. GIS, Data Mining, Processing, Arduino</span></li>
 	</div>
 	
+
+	<div class="step" data-x="3700" data-y="0" style="line-height:36px;font-size:24px;">
+		<span style="color:#ccc;">
+		<?php 
+    	$images = array(
+			'images/evodes/BST_CollinsHasegawa_ChristopherBotham_TravisHeim_FA14_01 copy.png',
+			'images/evodes/BST_CollinsHasegawa_ChristopherBotham_TravisHeim_FA14_02.png',
+			'images/evodes/BST_CollinsHasegawa_Extra_01.png',
+			'images/evodes/BST_CollinsHasegawa_LorenzoVillaggi_FA14_01.png',
+			'images/evodes/BST_CollinsHasegawa_BrianGalyean_LindseyWikstrom_FA14_01.png',
+			'images/evodes/BST_CollinsHasegawa_BrianGalyean_LindseyWikstrom_FA14_02.png'
+			);
+    	makeImageGrid("Past Student Work", "Excerpts from Student Technical Papers", $images, 4); 
+    	?>
+    </div>	
+
 	
 	<div class="step" data-x="4000" data-y="0" data-z="0" data-rotate="0" data-scale="1.0">
     	<?php 
@@ -517,17 +349,17 @@ function makeVideoSlide($title, $subtitle, $video){
 		makeImageGrid("Past Student Work", "Excerpts from Student Technical Papers", $imagesb, 3); 
 		?>
     </div>
-    
-	
-	<!--Class Schedule -->
-	
-	<div class="step" data-x="5000" data-y="0" data-z="0" data-rotate="0" data-scale="1.0" style="line-height:36px;font-size:24px;">
-		A4707 Evolutionary Design<Br>
-		<h2>Schedule</h2>
+     
+	<!-- Schedule -->
 
-		<div style="float:left;width:200px;color:#ccc;">
-		 	AT Introduction
-			<b style="color:#fff">Class 1</b><br>
+	<div class="step" data-x="5000" data-y="0" data-z="0" data-rotate="0" data-scale="1.0" style="line-height:36px;font-size:24px;">
+		
+		A4707 Evolutionary Design Schedule
+		<Br><br>
+		
+		<div style="float:left;width:140px;color:#ccc;">
+		 	Tech Intro<br>
+			Class 1<br>
 			Class 2<br>
 			Class 3<br>
 			Class 4<br>
@@ -539,24 +371,38 @@ function makeVideoSlide($title, $subtitle, $video){
 			Class 10<br>
 			Class 11<br>
 			Class 12<br>
-			Class 13<br>
 		</div>
-
-		<div style="float:left;color:#ccc;">
+		
+		<div style="float:left;width:140px;color:#ccc;">
+		 	n/a<br>
+			Lecture<br>
+			Workshop<br>
+			Workshop<br>
+			Discussion<br>
+			Meetings<br>
+			Workshop<br>
+			Meetings<br>
+			Workshop<br>
+			Discussion<br>
+			Meetings<br>
+			Lecture<br>
+			Present<br>
+		</div>
+		
+		<div style="float:left;color:#eee;">
 			Course Introduction<br>
-			<b style="color:#fff">Crash Course: Evolutionary Design Principles</b><br>
-			Workshop #1, Data Visualization in Rhino<br>
-			Workshop #2, Ecotect Acoustics and Airflow<br>
-			Class Discussion, Readings on Creative Evolutionary Systems<br>
-			Workshop #3, Geco &amp; Ecotect Solar Insolation<br>
-			Individual Meetings<br>
-			Workshop #4, Physics Based Modeling<br>
-			Workshop #5, Solidworks and FEA<br>
-			Individual Meetings<br>
-			Holiday<br>
-			Individual Meetings<br>
-			Group Presentation on Research<br>
-			Individual Meetings<br>
+			Crash Course: Evolutionary Principles<br>
+			Analysis & Visualization in Rhino Grasshopper<br>
+			Environment Simulation in Ecotect <br>
+			Evolution Reading Discussion <br>
+			Individual or Group Meetings<br>
+			Physics Based Simulation in Kangaroo<br>
+			Individual or Group Meetings<br>
+			Evolutionary Solver in Rhino Galapagos<br>
+			Technical Paper Reading Discussion<br>
+			Individual or Group Meetings<br>
+			Beyond Evo, Advanced Computing in Architecture<br>
+			Final Presentations<br>
 		</div>
 
 	</div>	 
@@ -570,10 +416,10 @@ function makeVideoSlide($title, $subtitle, $video){
 		Crash Course: Evolutionary Design Principles
 		</span>
 		<li>Genes and Blueprints</li>
-		<li>Cell Fates and the Phenotype</li>
-		<li>How the Zebra Got It's Stripes</li>
-		<li>Selection and Extinction</li>
 		<li>Every Possible Result: CA and the Genotype</li>
+		<li>How the Zebra Got It's Stripes</li>
+		<li>Cell Fates and the Phenotype</li>
+		<li>Selection and Extinction</li>
 		<li>Artificial Life and Evolving Locomotion</li>
 		<li>Optimal Failure: The Chair You Can't Sit On</li>
 		<li>Our Biomimetic Future</li>
@@ -607,7 +453,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 
 
-	<div class="step" data-x="6000" data-y="0" style="line-height:36px;font-size:24px;">	
+	<div class="step" data-x="6000" data-y="250" style="line-height:36px;font-size:24px;">	
 	 	<?php makeGenericSlideWithHeight(
 	 	"Genes and Blueprints",
 	 	"Darwin's Finches and First Evolutionary Tree Sketch, On the Origin of Species 1859", 
@@ -663,63 +509,109 @@ function makeVideoSlide($title, $subtitle, $video){
 	</div>
 	
 	
-	<!-- Worm DNA visualization -->
-	
-	<div class="step"  data-x="6500" data-y="0" style="line-height:36px;font-size:24px;">
-				
-		<span style="font-size:48px;line-height:56px;">
-		<b>Cell Fates and the Phenotype</b>
-		</span>
+		<div class="step" data-x="6000" data-y="0" data-z="0" data-rotate="0" data-scale="1.0" style="line-height:36px;font-size:24px;">
 		
-		<br><Br>
+		<span style="font-size:48px;line-height:56px;">
+		<b>Genes and Blueprints</b>
+		</span>
+		<br>
+		<div style="float:right;position:relative;right:-50px;">
+		<img src="images/evodes/haeckel_drawings.jpg" />
+		</div>
 		
 		<span style="line-height:24px;font-size:18px;">
 		Featured:<br>
- 		C elegans<br>	
-		Epigenetic Landscapes<br>
+		On the Origin of Species, Charles Darwin<br>
+		Watson and Crick<br>
+		Cell Computation<br>
 		</span>
 		
 		<br>
-		<b>phenotype</b> An organism's observed characteristics, such as morphology, development, or behavior.
-		<Br>
-		<img src="images/evodes/Suggestion for coverMerged.jpg" />
+		<b>genotype</b> The genotype of an organism is that organism's full hereditary information, even if not expressed.
 		
+	</div>
+	
+	
+	<!--CA, complexity from simple rules - Genotype -->
+	
+	<div class="step"  data-x="6500" data-y="0" style="line-height:36px;font-size:24px;">
+	
+		<span style="font-size:48px;line-height:56px;">
+		<b>Every Possible Outcome</b>
+		</span>
+		<br>
+		
+		<br><Br>
+		<span style="line-height:24px;font-size:18px;">
+		Featured:<br>
+		Wolfram, Cellular Automata<br>
+		Many Worlds Browsing<br>
+		
+		<br>
+		<span class="pres-keyword">Keyword: Genotype</span>
+				
 	</div>
 	
 	<div class="step" data-x="6500" data-y="500" style="line-height:36px;font-size:24px;">	
 	 	<?php makeGenericSlideWithHeight(
-	 	"Cell Fates and the Phenotype",
-	 	"Complete Cell Lineage of C elegans worm", 
-	 	"images/evodes/Complete_cell_lineage_of_C_elegans.png", 
+	 	"Every Possible Outcome",
+	 	"Cellular Automata, Stephen Wolfram", 
+	 	"images/evodes/Cellular_Automata_Wolfram_Brian-6.png", 
 	 	"559"); ?>
 	</div>	
 	
 	<div class="step" data-x="6500" data-y="1000" style="line-height:36px;font-size:24px;">	
 	 	<?php makeGenericSlideWithHeight(
-	 	"Cell Fates and the Phenotype",
-	 	"Complete Cell Lineage of C elegans worm", 
-	 	"images/evodes/CelegansGastrulationLineage.jpg", 
-	 	"650"); ?>
-	</div>	
-	
-	<div class="step" data-x="6500" data-y="1500" style="line-height:36px;font-size:24px;">	
-	 	<?php makeGenericSlideWithHeight(
-	 	"Cell Fates and the Phenotype",
-	 	"Epigenetic Landscape, Cell Fate as Chaotic System", 
-	 	"images/evodes/figure4A.jpg", 
+	 	"Every Possible Outcome",
+	 	"Cellular Automata, Stephen Wolfram", 
+	 	"images/evodes/Cellular_Automata_Wolfram_Brian-8.png", 
 	 	"559"); ?>
 	</div>	
 	
 	<div class="step" data-x="6500" data-y="1500" style="line-height:36px;font-size:24px;">	
 	 	<?php makeGenericSlideWithHeight(
-	 	"Cell Fates and the Phenotype",
-	 	"Epigenetic Landscape, Cell Fate as Chaotic System", 
-	 	"images/evodes/nature08180-f2.2.jpg", 
+	 	"Every Possible Outcome",
+	 	"Cellular Automata, Stephen Wolfram", 
+	 	"images/evodes/Cellular_Automata_Wolfram_Brian-12.png", 
 	 	"559"); ?>
 	</div>	
 	
+	<div class="step" data-x="6500" data-y="2000" style="line-height:36px;font-size:24px;">	
+	 	<?php makeGenericSlideWithHeight(
+	 	"Every Possible Outcome",
+	 	"Cellular Automata, Stephen Wolfram", 
+	 	"images/evodes/Wolframe Cellular Automata-11.jpg", 
+	 	"559"); ?>
+	</div>	
 	
+		<div class="step" data-x="6500" data-y="2500" style="line-height:36px;font-size:24px;">	
+	 	<?php makeGenericSlideWithHeight(
+	 	"Every Possible Outcome",
+	 	"Conway's Game of Life", 
+	 	"images/evodes/Gospers_glider_gun.gif", 
+	 	"559"); ?>
+	</div>	
 		
+
+
+	<div class="step"  data-x="6500" data-y="0" style="line-height:36px;font-size:24px;">
+	
+		<span style="font-size:48px;line-height:56px;">
+		<b>Every Possible Outcome</b>
+		</span>
+		<br>
+		
+		<br><Br>
+		<span style="line-height:24px;font-size:18px;">
+		Featured:<br>
+		Wolfram, Cellular Automata<br>
+		Many Worlds Browsing<br>
+		
+		<br>
+		<span class="pres-keyword">Keyword: Genotype</span>
+				
+	</div>
+	
 	<!--How does the Zebra get its stripes? -->
 	
 	<div class="step"  data-x="7000" data-y="0" style="line-height:36px;font-size:24px;">
@@ -775,9 +667,107 @@ function makeVideoSlide($title, $subtitle, $video){
 	</div>
 	
 	
-	<!--1 / 1000 live extinction pattern. Failure -->
+	<div class="step"  data-x="7000" data-y="0" style="line-height:36px;font-size:24px;">
+	
+		<span style="font-size:48px;line-height:56px;">
+		<b>How the Zebra got its Stripes</b>
+		</span>
+		<br>
+		<br>
+		
+		<span style="line-height:24px;font-size:18px;">
+		Featured:<br>
+		Endless Forms Most Beautiful, Sean Carroll<br>
+		Embryological Patterning, Processing<br>
+		</span>
+		
+		<br>
+		<br>
+		
+				
+	</div>
+	
+	<!-- Worm DNA visualization -->
 	
 	<div class="step"  data-x="7500" data-y="0" style="line-height:36px;font-size:24px;">
+				
+		<span style="font-size:48px;line-height:56px;">
+		<b>Cell Fates and the Phenotype</b>
+		</span>
+		
+		<br><Br>
+		
+		<span style="line-height:24px;font-size:18px;">
+		Featured:<br>
+ 		C elegans<br>	
+		Epigenetic Landscapes<br>
+		</span>
+		
+		<br>
+		<b>phenotype</b> An organism's observed characteristics, such as morphology, development, or behavior.
+		<Br>
+		<img src="images/evodes/Suggestion for coverMerged.jpg" />
+		
+	</div>
+	
+	<div class="step" data-x="7500" data-y="500" style="line-height:36px;font-size:24px;">	
+	 	<?php makeGenericSlideWithHeight(
+	 	"Cell Fates and the Phenotype",
+	 	"Complete Cell Lineage of C elegans worm", 
+	 	"images/evodes/Complete_cell_lineage_of_C_elegans.png", 
+	 	"559"); ?>
+	</div>	
+	
+	<div class="step" data-x="7500" data-y="1000" style="line-height:36px;font-size:24px;">	
+	 	<?php makeGenericSlideWithHeight(
+	 	"Cell Fates and the Phenotype",
+	 	"Complete Cell Lineage of C elegans worm", 
+	 	"images/evodes/CelegansGastrulationLineage.jpg", 
+	 	"650"); ?>
+	</div>	
+	
+	<div class="step" data-x="7500" data-y="1500" style="line-height:36px;font-size:24px;">	
+	 	<?php makeGenericSlideWithHeight(
+	 	"Cell Fates and the Phenotype",
+	 	"Epigenetic Landscape, Cell Fate as Chaotic System", 
+	 	"images/evodes/figure4A.jpg", 
+	 	"559"); ?>
+	</div>	
+	
+	<div class="step" data-x="7500" data-y="1500" style="line-height:36px;font-size:24px;">	
+	 	<?php makeGenericSlideWithHeight(
+	 	"Cell Fates and the Phenotype",
+	 	"Epigenetic Landscape, Cell Fate as Chaotic System", 
+	 	"images/evodes/nature08180-f2.2.jpg", 
+	 	"559"); ?>
+	</div>	
+	
+	
+	<div class="step"  data-x="7500" data-y="0" style="line-height:36px;font-size:24px;">
+				
+		<span style="font-size:48px;line-height:56px;">
+		<b>Cell Fates and the Phenotype</b>
+		</span>
+		
+		<br><Br>
+		
+		<span style="line-height:24px;font-size:18px;">
+		Featured:<br>
+ 		C elegans<br>	
+		Epigenetic Landscapes<br>
+		</span>
+		
+		<br>
+		<b>phenotype</b> An organism's observed characteristics, such as morphology, development, or behavior.
+		<Br>
+		<img src="images/evodes/Suggestion for coverMerged.jpg" />
+		
+	</div>
+		
+	
+	<!--1 / 1000 live extinction pattern. Failure -->
+	
+	<div class="step"  data-x="8000" data-y="0" style="line-height:36px;font-size:24px;">
 	
 		<span style="font-size:48px;line-height:56px;">
 		<b>Selection and Extinction</b>
@@ -790,7 +780,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 	</div>
 	
-	<div class="step" data-x="7500" data-y="500" style="line-height:36px;font-size:24px;">	
+	<div class="step" data-x="8000" data-y="500" style="line-height:36px;font-size:24px;">	
 	 	<?php makeGenericSlideWithHeight(
 	 	"Selection and Extinction",
 	 	"Geological Time Spiral", 
@@ -799,7 +789,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	</div>	
 		
 		
-	<div class="step" data-x="7500" data-y="1000" style="line-height:36px;font-size:24px;">	
+	<div class="step" data-x="8000" data-y="1000" style="line-height:36px;font-size:24px;">	
 	 	<?php makeGenericSlideWithHeight(
 	 	"Selection and Extinction",
 	 	"Extinction Branches", 
@@ -807,7 +797,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	 	"350"); ?>
 	</div>	
 	
-	<div class="step" data-x="7500" data-y="1000" style="line-height:36px;font-size:24px;">	
+	<div class="step" data-x="8000" data-y="1000" style="line-height:36px;font-size:24px;">	
 	 	<?php makeGenericSlideWithHeight(
 	 	"Selection and Extinction",
 	 	"Extinction Branches", 
@@ -815,75 +805,21 @@ function makeVideoSlide($title, $subtitle, $video){
 	 	"620"); ?>
 	</div>	
 	
-	
-	<!--CA, complexity from simple rules - Genotype -->
-	
-	<div class="step"  data-x="8000" data-y="0" style="line-height:36px;font-size:24px;">
+		<div class="step"  data-x="8000" data-y="0" style="line-height:36px;font-size:24px;">
 	
 		<span style="font-size:48px;line-height:56px;">
-		<b>Every Possible Outcome</b>
+		<b>Selection and Extinction</b>
 		</span>
 		<br>
-		
-		<br><Br>
-		<span style="line-height:24px;font-size:18px;">
-		Featured:<br>
-		Wolfram, Cellular Automata<br>
-		Many Worlds Browsing<br>
-		
 		<br>
-		<span class="pres-keyword">Keyword: Genotype</span>
-				
+		<b>selection</b> A selection process probabilistically chooses the fittest individuals to reproduce (with variation resulting from crossover and mutation); their offspring make up the next generation.
+		<br><br>
+		<b>punctuated equilibrium</b> The hypothesis that species exhibit genetic and morphogenic stability for most of their existence, with changes coming in short (on a relative scale) period of dramatic speciation, before settling into new long-term equilibria.
+	
 	</div>
 	
-	<div class="step" data-x="8000" data-y="500" style="line-height:36px;font-size:24px;">	
-	 	<?php makeGenericSlideWithHeight(
-	 	"Every Possible Outcome",
-	 	"Cellular Automata, Stephen Wolfram", 
-	 	"images/evodes/Cellular_Automata_Wolfram_Brian-6.png", 
-	 	"559"); ?>
-	</div>	
 	
-	<div class="step" data-x="8000" data-y="1000" style="line-height:36px;font-size:24px;">	
-	 	<?php makeGenericSlideWithHeight(
-	 	"Every Possible Outcome",
-	 	"Cellular Automata, Stephen Wolfram", 
-	 	"images/evodes/Cellular_Automata_Wolfram_Brian-8.png", 
-	 	"559"); ?>
-	</div>	
 	
-	<div class="step" data-x="8000" data-y="1500" style="line-height:36px;font-size:24px;">	
-	 	<?php makeGenericSlideWithHeight(
-	 	"Every Possible Outcome",
-	 	"Cellular Automata, Stephen Wolfram", 
-	 	"images/evodes/Cellular_Automata_Wolfram_Brian-12.png", 
-	 	"559"); ?>
-	</div>	
-	
-	<div class="step" data-x="8000" data-y="2000" style="line-height:36px;font-size:24px;">	
-	 	<?php makeGenericSlideWithHeight(
-	 	"Every Possible Outcome",
-	 	"Cellular Automata, Stephen Wolfram", 
-	 	"images/evodes/Wolframe Cellular Automata-11.jpg", 
-	 	"559"); ?>
-	</div>	
-	
-		<div class="step" data-x="8000" data-y="2500" style="line-height:36px;font-size:24px;">	
-	 	<?php makeGenericSlideWithHeight(
-	 	"Every Possible Outcome",
-	 	"Conway's Game of Life", 
-	 	"images/evodes/Gospers_glider_gun.gif", 
-	 	"559"); ?>
-	</div>	
-		
-	<div class="step" data-x="8000" data-y="3000" style="line-height:36px;font-size:24px;">
-		<?php makeVideoSlide(
-		"Every Possible Outcome", 
-		"Many-Worlds Browsing for Control of Multibody Dynamics SIGGRAPH 2007", 
-		"dAjYi4ePHmQ"); ?>
-	</div>
-
-
 	<!--Artificial Life, universal constructor, Theo Jansen -->
 	
 	<div class="step"  data-x="8500" data-y="0" style="line-height:36px;font-size:24px;">
@@ -948,7 +884,24 @@ function makeVideoSlide($title, $subtitle, $video){
 	</div>
 	
 	
+	<div class="step"  data-x="8500" data-y="0" style="line-height:36px;font-size:24px;">
 	
+		<span style="font-size:48px;line-height:56px;">
+		Artificial Life: Evolving Locomotion
+		</span>
+		<br>
+	
+		<br><Br>
+		<span style="line-height:24px;font-size:18px;">
+		Featured:<br>
+		Karl Sims<br>
+		Theo Jansen<Br>
+		</span>
+		<br>
+		<br>
+		<b>artificial life</b> Artificial life is a field of study that examines life and life-like systems through the use of computer, mechanical, and chemical models. Some topics of interest in the field include but are not limited to the origin of life, what life is and could be, self-organization, self-replication, and evolution.
+		
+	</div>
 	
 	<!--Philip morel chair - Fitness - The moral is there are gaps in the logic.  - Over optimize. -->
 	
@@ -997,6 +950,26 @@ function makeVideoSlide($title, $subtitle, $video){
 	</div>	
 	
 	
+	<div class="step"  data-x="9000" data-y="0" style="line-height:36px;font-size:24px;">
+	
+		<span style="font-size:48px;line-height:56px;">
+		<b>Optimal Failure</b>
+		</span>
+		<br>
+		<br>
+		
+		<span style="line-height:24px;font-size:18px;">
+		Featured:<br>
+		EZCT Genetically Optimized Chair
+		</span>
+		
+		<br>
+		<br>
+		<b>genetic algorithm</b> Genetic algorithms are a family of computational search and learning methods inspired by biological evolution.  Evolution takes place on a population of individuals, each of which represents a candidate solution to a given problem.  At a given generation, each individual's fitness is calculated according to a user-defined fitness function.  A selection process probabilistically chooses the fittest individuals to reproduce (with variation resulting from crossover and mutation); their offspring make up the next generation.   The algorithm runs for either a fixed number of generations, or until an individual is found whose fitness is above a user-defined threshold. 
+		
+	</div>
+
+
 	<!--Biomimtec Design SKO -->
 
 	<div class="step"  data-x="9500" data-y="0" style="line-height:36px;font-size:24px;">
@@ -1008,23 +981,21 @@ function makeVideoSlide($title, $subtitle, $video){
 		<Br>
 		<span style="line-height:24px;font-size:18px;">
 		Featured:<br>
-		Soft Kill Option<br>
-		Joris Laarman Bone Chair<Br>
+		NASA Attenna Design<br>
 		Arup Tensegrity Connection<br>
 		</span>
 		
 		<br>
 		<b>attractor</b> In dynamical systems, an attractor is a value or set of values for the variables of a system to which they will tend towards over enough time, or enough iterations. Examples include fixed-point attractors, periodic attractors (also called limit cycles), and chaotic (also called "strange") attractors.
 	</div>
-	
-	<div class="step" data-x="9500" data-y="500" style="line-height:36px;font-size:24px;">	
-		<?php makeMajorMinorSlideWithHeight(
+
+
+	<div class="step" data-x="9500" data-y="1000" style="line-height:36px;font-size:24px;">	
+	 	<?php makeGenericSlideWithHeight(
 	 	"Our Biomimetic Future",
-    	"<br>Soft Kill Option in Car Frame Optimization", 
-    	"images/evodes/merc.jpg",
-    	"images/evodes/nafems_2001-9.jpg",
-    	"Soft Kill Option in Beam Design", 
-    	"510"); ?> 
+	 	"Gregory S. Hornby for NASA, 2005", 
+	 	"images/evodes/GeneticallyGrownAntennas_NASA-web.jpg", 
+	 	"559"); ?>
 	</div>
 
 	<div class="step" data-x="9500" data-y="1000" style="line-height:36px;font-size:24px;">	
@@ -1052,10 +1023,10 @@ function makeVideoSlide($title, $subtitle, $video){
 		Crash Course: Evolutionary Design Principles
 		</span>
 		<li>Genes and Blueprints</li>
-		<li>Extending Darwin: Cell Fates and the Phenotype</li>
-		<li>How the Zebra Got It's Stripes</li>
-		<li>Selection and Extinction</li>
 		<li>Every Possible Result: CA and the Genotype</li>
+		<li>How the Zebra Got It's Stripes</li>
+		<li>Cell Fates and the Phenotype</li>
+		<li>Selection and Extinction</li>
 		<li>Artificial Life and Evolving Locomotion</li>
 		<li>Optimal Failure: The Chair You Can't Sit On</li>
 		<li>Our Biomimetic Future</li>
@@ -1064,7 +1035,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	
 
 	<!--Class Schedule Recap -->
-		
+	
 	<div class="step"  data-x="10500" data-y="0" style="line-height:36px;font-size:24px;">
 		A4707 Evolutionary Design<Br>
 		<h2>Schedule</h2>

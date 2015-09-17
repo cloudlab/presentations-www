@@ -1,5 +1,50 @@
 <?php 
 
+
+function makeMajorMinorSlideWithHeight($title, $credit, $imageMajor, $imageMinor, $commentMinor, $height){
+	echo '<div class="translateDown" style="float:left;position:relative; left:-100px; top:-30px;">';
+	echo '<span style="font-size:36px;color:#CCC;">'.$title.'</span>';
+	echo '</div>';
+	echo '<br>';
+	echo '<br>';	
+	echo '<div class="translateUp" style=";float:right;position:relative; top:-40px; right:0px; width:320px; padding:20px;">';
+	echo '<img src=\''.$imageMinor.'\' width=100%>';
+	
+		echo '<div style="float:left;position:relative;left:0px;top:0px;height:40px;">';
+			echo '<span style="font-size:12pt;line-height:14pt;color:#000;"><br>'.$commentMinor . '</span>';
+		echo '</div>';
+		echo '<div style="float:left;position:relative;left:-1px;top:-41px;">';
+			echo '<span style="font-size:12pt;line-height:14pt;;color:#fff;"><br>'.$commentMinor . '</span>';
+		echo '</div>';
+	echo '</div>';
+
+    echo '<div class="" style="width:820px;height:'.$height.'px;background-image:url(\''.$imageMajor.'\');" ></div>';
+	echo '<br>';
+	echo '<p style="font-size:20px;margin-top:'. -80 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
+}
+
+
+
+function makeMajorMinorSlideWithHeightWide($title, $credit, $imageMajor, $imageMinor, $commentMinor, $height){
+	echo '<div class="translateUp" style="float:left;position:relative; top:0px; right:0px; >';
+	echo '<span style="font-size:36px;color:#CCC;">'.$title.'</span>';
+	echo '</div>';
+	echo '<br>';
+	echo '<div class="translateUp" style="bacground-color:#000;float:right;position:relative; top:0px; right:0px; width:320px; height:440px;">';
+	echo '<img src='.$imageMinor.' width=100%>';
+		echo '<div style="float:left;position:relative;left:0px;top:0px;height:40px;">';
+			echo '<span style="font-size:12pt;line-height:14pt;color:#000;"><br>'.$commentMinor . '</span>';
+		echo '</div>';
+		echo '<div style="float:left;position:relative;left:-1px;top:-41px;">';
+			echo '<span style="font-size:12pt;line-height:14pt;;color:#fff;"><br>'.$commentMinor . '</span>';
+		echo '</div>';	echo '</div>';
+
+    echo '<div class="" style="width:820px;height:'.$height.'px;background-image:url(\''.$imageMajor.'\');" ></div>';
+	echo '<br>';
+	echo '<p style="font-size:20px;margin-top:'. -60 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
+}
+
+
 function addImageWithCredit($credit, $image, $height){
     echo '<div class="translateUp" style="width:820px;height:'.$height.'px;background-image:url(\''.$image.'\');" ></div>';
 	echo '<br>';
@@ -44,6 +89,7 @@ function makeRecessiveSlideWithHeight($title, $credit, $image, $height){
 	echo '<img src="'.$image.'"  width="100%"/>';
     echo '</div>';echo '<br>';
 }
+
 
 function makeImageGrid($title, $credit, $images, $columns){
 	
