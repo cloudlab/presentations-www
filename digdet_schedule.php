@@ -8,7 +8,7 @@ $headY = 0;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>A4707 Digital Detailing Intro</title>
+    <title>A4707 Digital Detailing Schedule</title>
     <meta name="description" content="Design Amplification" />
     <meta name="author" content="Mark Collins" />
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,700,700italic,200,300' rel='stylesheet' type='text/css'>
@@ -24,69 +24,43 @@ $headY = 0;
 
 <div id="impress">
 
-	<!-- BEGIN PRESENTATION -->
-	
-    
+
     <!--Class Schedule -->
 	<div class="step" data-x="<?php echo $head+=800;?>" data-y="0" data-z="0" data-rotate="0" data-scale="1.0" style="line-height:36px;font-size:24px;">		
-		<h2>Digital Detailing Schedule</h2><br>
-		<div style="float:left;width:150px;color:#ccc;">
-		 	Class 1<br>
+		<h2>Schedule</h2><br>
+		<div style="float:left;width:200px;color:#ccc;">
+			Class 1<br>
 			Class 2<br>
 			Class 3<br>
 			Class 4<br>
 			Class 5<br>
-			Class 6<br>
-			Class 7<br>
-			Class 8<br>
-			<span style="color:#666;">n/a</span><br>
+			Class 6 (midterm)<br>
+			Class 7 (midterm)<br>
+			Class 8 (kinne)<br>
 			Class 9<br>
 			Class 10<br>
 			Class 11<br>
 			Class 12<br>
 			Class 13<br>
 		</div>
-		
-		<div style="float:left;width:140px;color:#ccc;">
-			1/22<br>
-			1/29<br>
-			2/5<br>
-			2/12<br>
-			2/19<br>
-			2/26<br>
-			3/5<br>
-			3/12<br>
-			<span style="color:#666;">3/19</span><br>
-			3/26<br>
-			4/2<br>
-			4/9<br>
-			4/16<br>
-			4/23<br>
-		</div>
-		
 		<div style="float:left;color:#ccc;">
-			Course Introduction, Q&A<br>
-			Readings Intro, Workshop #1: Vrep “Hello World”<br>
-			Workshop #2: Linking Objects in Vrep<br>
+			<span style="color:#CCCC99;">Course Introduction, Q&A</span><br>
+			<span style="color:#FF9999;">Workshop: Getting Started in Vrep, Physical simulation</span><br>
+			<span style="color:#FF9999;">Workshop: Path Planning and Movement</span><br>
 			Project Meetings<br>
-			Reading Roundtable Discussion<br>
-			Workshop #3: Vrep, Project Focus<br>
+			<span style="color:#CCCC99;">Reading Roundtable Discussion</span><br>
+			<span style="color:#FF9999;">Workshop: Effectors and Actuators</span><br>
 			Project Meetings<br>
-			Robot Arm Build (Kinne Week)<br>
-			<span style="color:#666;">Spring Break</span><br>
-			Workshop #4: LUA Scripting<br>
-			CompGeo Technical Paper Discussion<br>
+			Open Project and Build Session<br>
+			<span style="color:#FF9999;">Workshop: Scripting in Vrep</span><br>
 			Project Meetings<br>
-			Project Presentations<br>
-			Paper Draft Meetings<br>
-			
-			<!-- Lecture: Geometry, GCode & Automation -->
-			<!-- Workshop #2: Cutting, Welding & Spraying -->
+			Project Meetings<br>
+			<span style="color:#FF9999;">Workshop: meArm, vRep Help Session</span><br>
+			<span style="color:#CCCC99;">Presentation and Discussion, "Intelligent Building Tech"</span><br>
+			<!-- Lecture: Reality Computing & Emerging Bldg Tech -->
 		</div>
 	</div>	 
-	
 
-	
 	<!-- END PRESENTATION -->
 	
 </div>

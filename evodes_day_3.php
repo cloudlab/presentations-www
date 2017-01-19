@@ -185,7 +185,7 @@ function makeVideoSlide($title, $subtitle, $video){
 	<div id="start" class="step slide" data-x="0" data-y="0" style="background-image:url('images/evodes-intro-cover.png');">
         
         <h2><b>A4707 Evolutionary Design</b></h2>
-        Day/Time: Th 6:00pm - 8:00pm<br>
+        Day/Time: Th 7:00pm - 9:00pm<br>
 		Location: 115 Avery Hall<Br>
 		Arch Technology Sequence, Elective<Br>
 
@@ -198,19 +198,20 @@ function makeVideoSlide($title, $subtitle, $video){
         </div>
         
     </div>
-	
 
-	<!--Class Schedule -->
+
+	<!-- Schedule -->
 	
 	<div class="step" data-x="1000" data-y="0" data-z="0" data-rotate="0" data-scale="1.0" style="line-height:36px;font-size:24px;">
+		
 		A4707 Evolutionary Design Schedule
-		<br><br>
-
-		<div style="float:left;width:200px;color:#ccc;">
-		 	GSAPP Tech Intro
-			Class 1</b><br>
+		<Br><br>
+		
+		<div style="float:left;width:140px;color:#ccc;">
+		 	Tech Intro<br>
+			Class 1<br>
 			Class 2<br>
-			<b style="color:#fff">Class 3</b><br>
+			<b><span style="color:#fff;">Class 3</span></b><br>
 			Class 4<br>
 			Class 5<br>
 			Class 6<br>
@@ -220,35 +221,48 @@ function makeVideoSlide($title, $subtitle, $video){
 			Class 10<br>
 			Class 11<br>
 			Class 12<br>
-			Class 13<br>
 		</div>
 		
-		<div style="float:left;color:#ccc;">
-			Course Introduction<br>
-			Crash Course: Evolutionary Design Principles<br>
-			Workshop #1, Data Visualization in Rhino<br>
-			<b style="color:#fff">Workshop #2, Environmental Modeling in Ecotect</b><br>
-			Workshop #3, Forces in Grasshopper Kangaroo<br>
-			Class Discussion, Readings on Creative Evolutionary Systems<br>
-			Workshop #4, Evolution in Grasshopper Galapagos<br>
-			Individual Meetings<br>
-			Workshop #5, Optimization in Solidworks<br>
-			Individual Meetings<br>
-			No Class (Fall Break)<br>
-			Individual Meetings<br>
-			Group Presentation on Research<br>
-			Individual Meetings<br>
+		<div style="float:left;width:140px;color:#ccc;">
+		 	n/a<br>
+			Lecture<br>
+			Workshop<br>
+			<b><span style="color:#fff;">Workshop</span></b><br>
+			Discussion<br>
+			Meetings<br>
+			Workshop<br>
+			Meetings<br>
+			Workshop<br>
+			Discussion<br>
+			Meetings<br>
+			Lecture<br>
+			Present<br>
 		</div>
-	</div>
+		
+		<div style="float:left;color:#eee;">
+			Course Introduction<br>
+			Crash Course: Evolutionary Principles<br>
+			Analysis & Visualization in Rhino Grasshopper<br>
+			<b><span style="color:#fff;">Environment Simulation in Ladybug</span></b><br>
+			Evolution Reading Discussion <br>
+			Individual or Group Meetings<br>
+			Morphogenesis (Homeobox) in Grasshopper<br>
+			Individual or Group Meetings<br>
+			Evolutionary Solver in Rhino Galapagos<br>
+			Technical Paper Reading Discussion<br>
+			Individual or Group Meetings<br>
+			Beyond Evo, Advanced Computing in Architecture<br>
+			Final Presentations<br>
+		</div>
+	</div>	
 	
 	<!-- Goals for Today -->
 	
 	<div class="step"  data-x="2000" data-y="0" style="line-height:48px;font-size:36px;">
 		<p>Goals for Today</p>
-		<li>Introduce Readings</li>
-		<li>Intro, Modeling the Environment</li>
-		<li>Focus, Raycasting in Ecotect</li>
-		<li><b>Workshop: Environmental Simulation in Ecotect</b></li>
+		<li>Reading Reminder</li>
+		<li>Intro, Raycasting</li>
+		<li><b>Workshop: Environmental Simulation in Ladybug</b></li>
 		<li>For Next Class...</li>
 	</div>	 
 	
@@ -272,175 +286,95 @@ function makeVideoSlide($title, $subtitle, $video){
     	makeImageGrid("Readings", "Readings are each excerpted from these books and papers", $images, 6); 
     	?>
     </div>
-    
-	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
+   
+   <div class="step" data-x="3500" data-y="0" data-z="0" data-rotate="0" data-scale="1.0" style="line-height:36px;font-size:24px;">
 		
-		<div style="float:right;">
-			<?php addAccentImageWithCreditAndHeight("", 'images/evodes/a02_p02_sm.jpg', 300, 200, 0); ?>
+		Evolutionary Design Workshops
+		<Br><br>
+		
+		<div style="float:left;width:220px;color:#ccc;">
+		 	<b><span style="color:#fff;">#1 Environment</span></b><br>
+			#2 Morphogenesis<br>
+			#3 Evolution<br>
 		</div>
 		
-		<span style="color:#fff;">
-		Intro: Modeling the Environment
-		</span>
+		<div style="float:left;width:240px;color:#ccc;">
+		 	<b><span style="color:#fff;">Fitness</span></b><br>
+			Genes<br>
+			Selection/Mutation<br>
+		</div>
 		
-		<li>Parametric/Heuristic vs Physical Simulation</li>
-		<li>Survey of Environmental Modeling Methods</li>
-		<li>Focus: Raycasting in Ecotect</li>
-		
-	</div>
+		<div style="float:left;color:#eee;">
+			<b><span style="color:#fff;">Ladybug for Grasshopper</span></b><br>
+			Automata in Grasshopper<br>
+			Galapagos for Grasshopper<br>			
+		</div>
+	</div>	
 	
-	
-	<!-- Environmental Simulation -->
-		<!-- Parametric/Heuristic vs Physical Simulation -->
-		<!-- Aspects of the Environment we Simulate -->
-		<!-- Models and Mechanics of Simulation -->
-			<!-- Acoustic -->
-			<!-- Airflow -->
-			<!-- Insolation -->
-			<!-- Radiance -->
-		<!-- Mechanics: Raytracing -->
-			<!-- need ????? -->
-	<!-- -->
-
-	<!--
-	NCCS_greencomputers_525px.jpg
-NCCS_merra_flood93_spechud.jpg	
-This close-up view shows one row--approximately 2,000 computer processors--of the "Discover" supercomputer at the NASA Center for Climate Simulation (NCCS). Discover has a total of nearly 15,000 processors. Credit: NASA/Pat Izzo
-http://svs.gsfc.nasa.gov/Gallery/NCCS.html#HighResImages
-The Modern Era Retrospective-analysis for Research and Applications (MERRA) is producing a comprehensive record of Earth's weather and climate from 1979, the beginning of the operational Earth observing satellite era, up to the present. This visualization depicts specific atmospheric humidity on June 17, 1993, during the Great Flood that hit the Midwestern United States.
-http://svs.gsfc.nasa.gov/Gallery/NCCS.html#HighResImages
--->
-
-
-	<div class="step" data-x="5000" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("Heuristic Modeling","World3 Computer Simulation, The Limits to Growth 1972", 'images/dd/WorldModel_combined_sm.jpg', "500"); ?>
-	</div>
-		
-		
-	<div class="step" data-x="6000" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("Heuristic Modeling","Still from \"An Inconvenient Truth\", Al Gore demonstrating escalation of man-made CO2 in the Environment", 'images/evodes/off-the-charts.jpg', "500"); ?>
-	</div>
-
-	
-	<!-- Models -->
-	<div class="step" data-x="7000" data-y="0" data-z="0" data-rotate="0" data-scale="1.0">
-    	<?php 
-    	$images = array(
-'images/evodes/NAMA.jpg',
-'images/evodes/Planetarium_in_Putnam_Gallery_2,_2009-11-24.jpg',
-'images/evodes/neosolarsys_tip_30_phi_60_4_AU_2011-04-28_1210_Slide6n_rs_.jpg');
-    	makeImageGrid("Physical Simulation", "Models of the Solar System", $images, 3); 
-    	?>
-    </div>
-    	
-	
-	<!--
-1000px-Conservation_of_mass.png
-CFD-main.png
-Components_stress_tensor_cartesian.svg.png
-navier_stokes.jpg
-particle-plume.jpg
--->
-	
-	<div class="step" data-x="8000" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("Sound, Air &amp; Light: Acoustics","Arup Acoustics, London City Hall Foster and Partners", 'images/dd/acousticAccent.png', "400"); ?>
-	</div>
-
-
-	<div class="step" data-x="9000" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("Sound, Air &amp; Light: Acoustics","Acoustic Resonance Patterns", 'images/dd/acoustic_resonance.png', "400"); ?>
-	</div>
-
-
-	<!--
-	<div class="step" data-x="5000" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("Computational Fluid Dynamics", "30 St Mary Axe, Norman Foster and Arup", 'images/dd/BDSP_02.jpg', "500"); ?>
-	</div>
-	-->
-	
-	<div class="step" data-x="10000" data-y="0" style="line-height:36px;font-size:24px;">
-		
-		<?php makeGenericSlideWithHeight("Sound, Air &amp; Light: Air","NASA's Sustainability Base", 'images/evodes/640370main_sustainability_base_fluid.jpg', "480"); ?>
-		<span style="font-size:10pt;line-height:12pt;">	In NASA's Sustainability Base, computational fluid dynamics is used to simulate environmental flows inside and outside the building. Simulated external flows include seasonal wind patterns in varying weather conditions. Internal simulations include air circulation patterns throughout the building, which are used to assess flow-control devices, such as automated windows and heating, ventilation and air conditioning (HVAC) units. Both sets of simulation data allow the building's control system to develop strategies for maintaining maximum comfort while minimizing energy demands.
-		http://www.nasa.gov/centers/ames/news/features/2012/sustainability_base_feature.html
-		</span>
-		
-	</div>
-
-	<div class="step" data-x="11000" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("Sound, Air &amp; Light: Air", "CFD Tensor Field", 'images/evodes/CFD-main.png', "600"); ?>
-	</div>
-
-	<div class="step" data-x="12000" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("Sound, Air &amp; Light: Air", "Navier Stokes CFD Equations", 'images/evodes/navier_stokes_b.jpg', "350"); ?>
-	</div>
-
-	<div class="step" data-x="13000" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("Sound, Air &amp; Light: Air", "Still image from Fire Dynamic Simulator. Temperatures at 5 ft above the floor. Image credit: NIST", 'images/evodes/winddrivenhomefiresimulation600_1.jpg', "400"); ?>
-	</div>
 	
 	
 	<!-- Ray Casting -->
 
-	<div class="step" data-x="14000" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("Sound, Air &amp; Light: Light","Solar Design in Ecotect", 'images/evodes/11-950x473.jpg', "478"); ?>
+	<div class="step" data-x="4000" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("Environmental Simulation","Solar Design in Ecotect", 'images/evodes/11-950x473.jpg', "478"); ?>
 	</div>
 
-	<div class="step" data-x="15000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="5000" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("Raycasting","Autodesk Ecotect", "images/dd/reflectance-combined.jpg", "350"); ?>
 	</div>
 	
 	
 	<!-- Ray Casting Optimizations: Revese  -->
-	<div class="step" data-x="16000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="6000" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("Raycasting: Reverse Casting","Autodesk Ecotect", "images/dd/raycasting_explanation.png", "559"); ?>
 	</div>
 	
 	<!-- Ray Casting Optimizations: sampling -->
-	<div class="step" data-x="17000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="7000" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("Raycasting: Sampling","Sampling Density", "images/dd/Subdivisions.png", "559"); ?>
 	</div>
 	
 	<!-- Ray Casting Optimizations: Shadow Maps -->
-	<div class="step" data-x="18000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="8000" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("Incorporating the Observed: Weather Data","Ecotect Shadow Maps", "images/dd/sky_dome.png", "548"); ?>
 	</div>
 	
 	<!-- Ecotect Shadow Maps-->
-	<div class="step" data-x="19000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="9000" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("Closing the Loop: Shadow Maps","Adding weather info to shadow maps", "images/dd/weather_data.png", "550"); ?>
 	</div>
 
 	<!-- Ecotect Radiance Results -->
-	<div class="step" data-x="20000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="10000" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("Results","Solar Insolation", "images/dd/ecotect-2.png", "559"); ?>
 	</div>
 
 	
 	<!-- Lets Workshop -->
 
-	<div class="step" data-x="21000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="11000" data-y="0" style="line-height:36px;font-size:24px;">
 
 		<b>Workshop time!</b>
 		<br>
-		Ecotect Analysis 2011<br>
-		Autodesk<Br>
-		Created by Andrew Marsh, SquareOne Software<br>
-		http://usa.autodesk.com/ecotect-analysis/
+		Make sure your running Grasshopper<br>
+		Install GHPython for Grashopper<Br>
+		Install Ladybug and Honeybee for Grashopper<Br>
+		Download samples files<br>
 	</div>	
 		
 
 	<!-- Next Class -->
 	
-	<div class="step"  data-x="22000" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step"  data-x="12000" data-y="0" style="line-height:36px;font-size:24px;">
 
 		<span style="font-size:48px;line-height:56px;">
-		<b>Workshop #3, Forces in Grasshopper Kangaroo</b>
+		<b>Reading Discussion</b>
 		</span>
 		<br>
 		<b>For Next Week</b>		
-		<li>Bring Charged Laptop</li>
-		<li>Download and Install Grasshopper Kangaroo (food4rhino.com)</li>
+		<li>Carefully go over your reading and be ready to field a question or two</li>
+		<li>Come ready to discuss</li>
+		<li>We want to hear about your goals, questions and interests</li>
 	</div>
     
 </div>

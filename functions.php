@@ -75,9 +75,9 @@ function makeGenericSlide($title, $credit, $image){
 function makeGenericSlideWithHeight($title, $credit, $image, $height){
 	echo '<span style="font-size:36px;color:#CCC;">'.$title.'</span>';
 	echo '<br>';
-    echo '<div class="translateDown" style="width:820px;height:'.$height.'px;background-image:url(\''.$image.'\');" ></div>';
+    echo '<div class="translateDown" style="margin-top:20px;width:820px;height:'.$height.'px;background-image:url(\''.$image.'\');" ></div>';
 	echo '<br>';
-	echo '<p style="font-size:20px;margin-top:'. -60 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
+	echo '<p style="font-size:20px;margin-top:'. -30 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
 }
 
 function makeRecessiveSlideWithHeight($title, $credit, $image, $height){
@@ -133,7 +133,7 @@ function makeThemeSlide($title, $subtitle, $image){
 		$image = "images/Ishiguro1.jpg";
     echo '<br><Br><Br><span style="font-size:30px;color:#888;">'.$title.'</span><br>';
     echo '<p align="center" style="text-size:40px;"><b class="">'.$subtitle.'</b></p>';
-    echo '<div class="translateDown" style="float:left;position:relative; top:-100px; left:350px; width:640px; height: 400px;background-image:url(\''.$image.'\');"></div>';
+    echo '<div class="translateDown" style="float:left;position:relative; top:0; left:350px; width:640px; height: 400px;background-image:url(\''.$image.'\');"></div>';
 }
 
 function makeVimeoSlide($title, $subtitle, $video){

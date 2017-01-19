@@ -11,7 +11,7 @@ include 'functions.php';
     
     <meta name="description" content="Design Amplification" />
     <meta name="author" content="Mark Collins" />
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,700,700italic,200,300' rel='stylesheet' type='text/css'>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,700,700italic,200,300' rel='stylesheet' type='text/css'> -->
 
     <link href="css/impress-demo.css" rel="stylesheet" />
         

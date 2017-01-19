@@ -248,6 +248,7 @@ a:focus {
     3D positioning along Z axis.
 */
 
+/*
 .scaleUp {
 	-webkit-transform: translateZ(-100px);
     -moz-transform:    translateZ(-100px);
@@ -272,7 +273,7 @@ a:focus {
     -o-transform:      translateZ(-150px);
     transform:         translateZ(-150px);
 }
-
+*/
 
 #title {
     padding: 0;
@@ -283,22 +284,22 @@ a:focus {
     position: absolute;
     top: -0.5em;
     left: 1.5em;
-
+/*
     -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
     -ms-transform:     translateZ(20px);
     -o-transform:      translateZ(20px);
-    transform:         translateZ(20px);
+    transform:         translateZ(20px);*/
 }
 
 #title h1 {
     font-size: 190px;
-
+/*
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
     -ms-transform:     translateZ(50px);
     -o-transform:      translateZ(50px);
-    transform:         translateZ(50px);
+    transform:         translateZ(50px);*/
 }
 
 #title .footnote {
