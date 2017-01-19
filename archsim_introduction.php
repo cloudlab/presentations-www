@@ -271,6 +271,10 @@ $x = 0;
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("","Leaf Venation, Nervous Systems", "images/archsim/folium_patterns.jpg", "517"); ?>
 	</div>
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Diffusion in 3D, Michael Hansmeyer", "images/archsim/voxels1.jpg", "400"); ?>
+	</div>
 
 <!-- CA-->
 
@@ -282,6 +286,9 @@ $x = 0;
 		<?php makeGenericSlideWithHeight("","", "images/evodes/Cellular_Automata_Wolfram_Brian-6.png", "560"); ?>
 	</div>
 
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Karl Chu, 1-Dimensional CA", "images/archsim/6chuCorr-1.jpg", "606"); ?>
+	</div>
 
 	
 <!-- physical models -->
@@ -359,6 +366,10 @@ $x = 0;
 		<?php makeGenericSlideWithHeight("","Thrust Network Analysis, Block Research Group (BRG) at the Institute of Technology in Architecture at ETH Zurich", "images/archsim/main-qimg-6a1810da7f516477027ad97c7628a496-c.jpg", "579"); ?>
 	</div>
 	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Funicular Shell Design: Geometric Approaches to Form Finding and Fabrication of Discrete Funicular Structures, ETH Zurich", "images/archsim/brg_dezeen_2880x1620_72dpi_jpg_1465559796_1248x702.jpg", "461"); ?>
+	</div>
+		
 	<!-- Kangaroo Video -->
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeVimeoSlide("","","8842130"); ?> <!-- alt: 8706003 -->
@@ -432,7 +443,7 @@ $x = 0;
 	
 	<!-- Sawapan Structural Optimization -->
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVideoSlide("","","OCc-s6mxQqc"); ?>
+		<?php makeVideoSlide("","Sawapan TopoStruct Software","OCc-s6mxQqc"); ?>
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
@@ -584,22 +595,19 @@ $x = 0;
 		<?php makeGenericSlideWithHeight("","Isovist Fields - a new model for spatial representation and computation", "images/archsim/Benedikt-Isovist-1979-9.jpg", "590"); ?>
 	</div>
 
-	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Compactness, Connectivity, Accessibilty", "images/archsim/Benedikt-Isovist-1979-11.png", "590"); ?>
+		<?php makeVideoSlide("","Isovist Urban Analysis, ETH","74328341"); ?>
 	</div>
-	
+
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/296px-Colored_neural_network.jpg", "500"); ?>
+		<?php makeGenericSlideWithHeight("","Artificial Neural Network Diagram", "images/archsim/296px-Colored_neural_network.jpg", "500"); ?>
 	</div>
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("","Neural net dreams generated purely from random noise, using a network trained on places by MIT Computer Science and AI Laboratory.", "images/archsim/building-dreams.png", "395"); ?>
 	</div>
+
 	
-	
-	
-	296px-Colored_neural_network.jpg
 <!-- Genetic -->
 	
 	<div class="step" data-x="<?php echo $x+=2000;?>" data-y="0" style="line-height:36px;font-size:24px;">
@@ -657,15 +665,9 @@ $x = 0;
 	</div>	
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVideoSlide("","http://000studio.com/detail/2262/","PpKV071KXO0"); ?>
+		<?php makeVideoSlide("","000 Studio, Topological Grid generic algorithm for space planning","PpKV071KXO0"); ?>
 	</div>
 
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("",
-		"Geometry Optimization by Genetic Algorithm (Given topology of column configuration from Step 1 ‘BESO‘. Rotational adjustment of ‘column trees‘ where Genes = Rotations)", 
-		"images/archsim/BESO-MarxerBuilding-OptimisationStep2-©BollingerGrohmann.gif", 
-		"559"); ?>
-	</div>
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 			<?php makeGenericSlideWithHeight("","Karl Sims, Evolving Virtual Creatures", "images/evodes/sim-3.png", "530"); ?>
@@ -686,6 +688,9 @@ $x = 0;
 		"JBgG_VSP7f8"); ?>
 		
 	</div>
+	
+	
+	
 	
 <!-- The Models -->	
 	
@@ -749,6 +754,10 @@ $x = 0;
 		</tr></table>
 	
 	</div>	
+	
+	
+	
+	
 	
 	<!-- Approach -->
 	
@@ -815,20 +824,19 @@ $x = 0;
 
 	<!-- Past Work -->
 	
+	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" data-z="0" data-rotate="0" data-scale="1.0">
     	<?php 
-    	$images = array('images/dd/Paper_DavidZhai_SimonMcGrown_GeorgeValdes-1.jpg',
-						'images/dd/Paper_DavidZhai_SimonMcGrown_GeorgeValdes-2.jpg',
-						'images/dd/Paper_DavidZhai_SimonMcGrown_GeorgeValdes-3.jpg',
-						'images/dd/Paper_Eduardo Mayoral Gonzalez-1.jpg',
-						'images/dd/Paper_Eduardo Mayoral Gonzalez-2.jpg',
-						'images/dd/Paper_Kooho Jung and Jea Hee Han-8.jpg',
-						'images/dd/Paper_SangYunLee-1.png',
-						'images/dd/Paper_SangYunLee-2.png');
-    	makeImageGrid("Past Student Work", "Excerpts from Student Technical Papers", $images, 4); 
+ 
+    	$imagesc = array(
+'images/evodes/BST_CollinsHasegawa_ChristopherBotham_TravisHeim_FA14_01 copy.png',
+'images/evodes/BST_CollinsHasegawa_ChristopherBotham_TravisHeim_FA14_02.png',
+'images/evodes/BST_CollinsHasegawa_Extra_01.png',
+'images/evodes/BST_CollinsHasegawa_LorenzoVillaggi_FA14_01.png',
+);
+    	makeImageGrid("", "Excerpts from Student Technical Papers", $imagesc, 3); 
     	?>
-    </div>
-    
+    </div>    
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" data-z="0" data-rotate="0" data-scale="1.0">
     	<?php 
