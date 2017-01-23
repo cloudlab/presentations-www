@@ -596,7 +596,7 @@ $x = 0;
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVideoSlide("","Isovist Urban Analysis, ETH","74328341"); ?>
+		<?php makeVimeoSlide("","Isovist Urban Analysis, ETH","74328341"); ?>
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
