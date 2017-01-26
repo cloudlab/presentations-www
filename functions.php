@@ -77,7 +77,7 @@ function makeGenericSlideWithHeight($title, $credit, $image, $height){
 	echo '<br>';
     echo '<div class="translateDown" style="margin-top:20px;width:820px;height:'.$height.'px;background-image:url(\''.$image.'\');" ></div>';
 	echo '<br>';
-	echo '<p style="font-size:20px;margin-top:'. -30 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
+	echo '<p style="font-size:20px;line-height:22px;margin-top:'. -30 . 'px;text-align:right;color:#999;">'.$credit.'</p>';
 }
 
 function makeRecessiveSlideWithHeight($title, $credit, $image, $height){
