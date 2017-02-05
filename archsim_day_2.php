@@ -50,12 +50,43 @@ $x = 0;
 	<!-- DO THIS NOW! Download, accept dropbox invite or send email with dropbox account name, look in email -->
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
- DO THIS NOW!<br><br>
+
+  <h2><b>Advanced Models in Architectural Simulation</b></h2>
+        Day/Time: Th 7:00pm - 9:00pm<br>
+		Location: 115 Avery Hall<Br>
+		Arch Technology Sequence, Elective<Br><br>
+
+ WELCOME BACK!<br><br>
+ Today, we begin our first in a series of workshops<br><br>
+
+
+ LETS GET STARTED<br><br>
+ <b>Get Ready to Code</b> Get your laptop plugged in and ready to go<Br>
  <b>Download Processing</b> http://processing.org<Br>
-<b>Confirm Rhino and Grasshopper installation</b> and send versions to th2114<br>
- <b>Accept Dropbox invitation</b> (or send your preferred dropbox email to mlc2115)<bR>
+<b>Confirm Rhino/Grasshopper installation</b> (if possible)<br>
+ <b>Accept Dropbox invitation</b> (or send your preferred email to mlc2115)<bR>
 	</div>
 
+
+
+	<!-- Whats in the reading and notes -->
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	WHATS IN THE DROPBOX?<Br><Br>
+<span	style="line-height:14pt;font-size:18pt;">
+	<li>Source Code for all examples today</li><Br>
+		<li>Papers for all examples today </li><Br>
+				<li>Class notes for today with links &amp; references</li><Br>
+								<li>Links to presentations</li><Br>
+								</span>
+								<br>
+			<h1>PAPERS</h1><br>
+		<?php archSimPaper("Turing", "The Chemical Basis for Morphogenesis", "1952"); ?>
+		<?php archSimPaper("Gierer and Meinhardt", "A Theory of Biological Pattern Formation", "1972"); ?>
+		<span style="color:#aaa;"><?php archSimPaper("Gray Scott", "Autocatalytic reactions in the isothermal, continuous stirred tank reactor", "1984"); ?> </span>
+		<?php archSimPaper("Pearson", "Complex Patterns in a Simple System", "1993"); ?>
+
+	</div>
 
 	<!-- Starting off simple with Chemical -->	
 	
@@ -120,13 +151,6 @@ $x = 0;
 	
 	</div>	
 
-	<!-- Opening slide - reaction diffusion map -->	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<?php makeGenericSlideWithHeight("","Reaction diffusion, resulting patterns when the kill rate varies along the x axis (from .045 to .07) and the feed rate varies along the y axis (from .01 to .1). Some areas are stable with solid A or solid B, but a crescent shaped zone between these gives various types of complex behaviors. From http://www.karlsims.com/rd.html", "images/archsim/rd_map.png", "599"); ?>
-
-	</div>
-
 <?php
 
 function archSimDefinition($word, $definition){
@@ -139,48 +163,48 @@ function archSimPaper($author, $title, $year){
 
 	<!-- Vocab for Today -->
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		Keywords for Today<br><br>
 
+		<h1>KEYWORDS</h1><br>
 		<?php archSimDefinition("Self organization", "systemic order arising from the interaction of initially disordered parts"); ?>
 		<?php archSimDefinition("Reaction Diffusion", "model that describes pattern formation in many biological, mathematical and physical systems"); ?>
 		<?php archSimDefinition("Gray Scott Equations", "specific set of equations that govern interactions between reactants"); ?>
-		<?php archSimDefinition("A &amp; B", "Names given to the two reactants in the RD formula"); ?>
-		<?php archSimDefinition("k-factor", "Determines speed at which reactants diffuse, or spread outs"); ?>
+		<?php archSimDefinition("A &amp; B", "names given to the two reactants in the RD formula"); ?>
+		<?php archSimDefinition("K &amp; F", "Kill and Feed rates at every cell, must be carefully calabrated"); ?>
 		<?php archSimDefinition("Moore's neighborhood", "in a grid, all neighboring pixels or cell to a given cell"); ?>
 		
 	</div>
 
-	<!-- Whats in the reading and notes -->
+	<!-- Opening slide - reaction diffusion map -->	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<?php archSimPaper("Turing", "The Chemical Basis for Morphogenesis", "1952"); ?>
-		<?php archSimPaper("Gierer and Meinhardt", "A Theory of Biological Pattern Formation", "1972"); ?>
-		<?php archSimPaper("Gray Scott", "Autocatalytic reactions in the isothermal, continuous stirred tank reactor", "1984"); ?>
-		<?php archSimPaper("Pearson", "Complex Patterns in a Simple System", "1993"); ?>
-
+		<?php makeGenericSlideWithHeight("","<br><b>Reaction diffusion</b>, resulting patterns when the kill rate varies along the x axis (from .045 to .07) and the feed rate varies along the y axis (from .01 to .1). A crescent shaped zone gives various types of complex behaviors. From http://www.karlsims.com/rd.html<br>", "images/archsim/rd_map.png", "534"); ?>
 	</div>
+
+	<!-- Explainers and Demo Websites -->
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<h1>DEMOS</h1><br>
+		
+		<span style="color:#aaa;">1: Karl Sims Reaction Diffusion Tutorial</span><br>
+		<i>www.karlsims.com/rd.html</i><br><br>
+				
+		<span style="color:#aaa;">2: Gray Scott Reaction Diffusion Interactive</span><br>
+		<i>pmneila.github.io/jsexp/grayscott/</i><br><br>
+		
+		<span style="color:#aaa;">3: Explorable map of F-k combinations</span><br>
+		<i>mrob.com/pub/comp/xmorphia/</i><br><br>
+		
+	</div>		
 
 
 	<!-- Explainers and Demo Websites -->
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	
-		1: Explorable map of F-k combinations<br>
-		<i>http://mrob.com/pub/comp/xmorphia/</i><br><br>
-		
-		3: Karl Sims Reaction Diffusion Tutorial<br>
-		<i>http://www.karlsims.com/rd.html</i><br><br>
-				
-		3:Gray Scott Reaction Diffusion Interactive<br>
-		<i>https://pmneila.github.io/jsexp/grayscott/</i>
+		<h1>WORKSHOP: Processing</h1><br>		
+				<?php makeGenericSlideWithHeight("","", "images/archsim/screenshot.png", "500"); ?>
 	</div>		
-
-
+	
 	<!-- Lets take it into grasshopper -->
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		Lets take it into grasshopper now for...<Br><Br>
-		
-		Image Retrieval/Analysis<br>
-		Panelization Demo<br>
+		<h1>WORKSHOP: Grasshopper</h1><br><br>
+						<?php makeGenericSlideWithHeight("","", "images/archsim/RD_Perforation.png", "500"); ?>
 	</div>
 	
 	
@@ -188,15 +212,15 @@ function archSimPaper($author, $title, $year){
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 	
 		<h2>Schedule</h2>
-		<div style="float:left;width:240px;color:#ccc;">
+		<div style="float:left;width:200px;color:#ccc;">
 			Class 1<br>
 			Class 2<br>
 			Class 3<br>
 			Class 4<br>
 			Class 5<br>
-			Class 6<br>
-			Class 7<br>
-			Class 8<br>
+			Class 6 MT<br>
+			Class 7 MT<br>
+			Class 8 Kinne<br>
 			Class 9<br>
 			Class 10<br>
 			Class 11<br>
@@ -204,22 +228,21 @@ function archSimPaper($author, $title, $year){
 			Class 13<br>
 		</div>
 	
-		<div style="float:left;color:#ccc;">
+		<div style="float:left;color:#ccc;width:620px;">
 		
 			Course Introduction, Q&A<br>
-			Presentation and Demo: Chemical Models<br>
-			<span style="color:#fff;">Workshop: “Hello World” Grashopper</span><br> <!-- Grashopper as Simulation and Visualization Engine<br> -->
-			Presentation and Demo: Physics Based Models<br>
-			<span style="color:#fff;">Workshop: Chain Models and Kangaroo Physics</span><br>
-			Presentation and Demo: Agent/Foraging Models<br>
-			Project Meetings<br>
-			Presentation: Genetic and Evolutionary Models<br>
-			<span style="color:#fff;">Workshop: Galapagos Grashopper</span><br>
-			Project Meetings<br>
-			Presentation: Models of Human Behavior<br>
-			<span style="color:#fff;">Workshop: Isovist</span><br>
+			<span style="color:#fff;">Workshop &amp; Demo: Hello World &amp; Reaction Diffusion</span><br>
+			Presentation: Chemical &amp; Physics Based Models<Br>
+			<span style="color:#fff;">Workshop &amp; Demo: Chain Models</span><br>
+			Presentation: Foraging Models &amp; Topological Optimization<br>
+			<span style="color:#fff;">Workshop: Karamba &amp; Millipede</span><br>
+			Presentation: Genetic &amp; Neural Networks<br>
+			Project Meeting (or Abstract due if Kinne)<br>
+			<span style="color:#fff;">Workshop: Galapagos Grashopper and Isovist</span><br>
 			Project Meetings<br>
 			Reading Roundtable Discussion<br>
+			Project Meetings<br>
+			Technical Presentation<br>
 		</div>	
 	</div>
 	
@@ -227,12 +250,10 @@ function archSimPaper($author, $title, $year){
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;	">
       
-		<span style="font-size:48pt;">		Questions?		</span><Br><Br>
+		<span style="font-size:48pt;">		For Next Week	</span><Br>
 		<br>
-		<b>For Next Week</b>		
-		<li>Bring a computer with Rhino Grasshopper</li>
-		<li>We will introduce the semester project next week</li>
-		<li>We will introduce readings next week as well</li>
+		<li>Get connected to class materials via Dropbox</li>
+		<li>Bring a computer for interactive demos</li>
 		<Br>
 		<Br>
        <h1 style="font-size:48px;line-height:50px;">A4707 ARCH<span style="color:#fff;"><b>SIM</b></span></h1>
