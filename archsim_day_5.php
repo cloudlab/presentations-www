@@ -119,9 +119,8 @@ function archSimPaper($author, $title, $year){
 				<h3><span style="color:#fff;">TOPOLOGICAL OPTIMIZATION</span></h3>
 				<span style="color:#fff;">
 				<ul>
-				<li>Morphological evolutionary structural optimization</li>
-				<li>Bi-Directional evolutionary structural optimization</li>
 				<li>Solid Isotropic Material Penalization</li>
+				<li>Bi-Directional evolutionary structural optimization</li>
 				</span>
 				</ul>
 			</td>
@@ -154,17 +153,33 @@ function archSimPaper($author, $title, $year){
 <!-- ASSUMPTIONS -->
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:30px;font-size:20px;">
-	Beam Equation
+
+	<?php makeGenericSlideWithHeight("","Structural Mechanics", "images/archsim/1200px-Bending.png", "487"); ?>
+
 </div>
 
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:30px;font-size:20px;">
-	Discretization
+
+	<?php makeGenericSlideWithHeight("","<Br>Mesh Discretization and Finite Elements", "images/archsim/image2.jpg", "499"); ?>
 </div>
 
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:30px;font-size:20px;">
-	Tie back to soap nets and films
-</div>		
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Rhino Grasshopper, Kangaroo output", "images/archsim/7e0090ee96e1026ae5a303b2eeff60da.jpg", "330"); ?>
+	</div>
+
+
+
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Soap Film Model, Frei Otto", "images/archsim/f2817978de08430d05291d9970fbca93.jpg", "461"); ?>
+	</div>		
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide("","Frei Otto and the Institute for Lightweight Structures","-IW7o25NmeA"); ?> 
+	</div>		
+
+
 
 <!-- BEFORE TOPILOGICAL OPTIMIZATION -->
 
@@ -188,7 +203,7 @@ function archSimPaper($author, $title, $year){
 
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-Michell Frame
+	<?php makeGenericSlideWithHeight("","Michells' Cantelever - The limits of economy of material in frame-structures, 1904", "images/archsim/michel_simple.png", "608"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
@@ -268,13 +283,9 @@ Topological Optimization: The Problem
 
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/Shape_optimization_by_the_homogenization_method-39.png", "600"); ?>
+	<?php makeGenericSlideWithHeight("","Mesh Dependency", "images/archsim/Shape_optimization_by_the_homogenization_method-39.png", "600"); ?>
 </div>
 	
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","Mesh Dependency", "images/archsim/003104j.15.jpeg", "600"); ?>
-</div>
-
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 	<?php makeGenericSlideWithHeight("","Checkerboarding", "images/archsim/A0128-6.png", "844"); ?>
 </div>
@@ -322,13 +333,6 @@ Topological Optimization: The Problem
 		<?php makeVimeoSlide("","Bone Chair, Joris Laarman","146039736"); ?>
 	</div>
 
-	
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","3D printed tension joint, Arup Engineers and Within Labs", "images/archsim/Arup-3d-printed-steel_dezeen_468_1.jpg", "559"); ?>
-	</div>
-	
-	
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 <?php makeGenericSlideWithHeight("","Zaha Hadid", "images/archsim/1b19fce9cc47d14914c630cbdd9bc470.jpg", "600"); ?>
 </div>
@@ -357,6 +361,9 @@ Topological Optimization: The Problem
 	<?php makeGenericSlideWithHeight("","SOM and University of Illinois", "images/archsim/11stromberg_towardgroupoptimization.png", "580"); ?>
 </div>
 
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeGenericSlideWithHeight("","AADRL Domino House", "images/archsim/aadrl.png", "560"); ?>
+</div>
 
 
 <!-- ANTS -->
@@ -386,19 +393,25 @@ Topological Optimization: The Problem
 		<?php makeGenericSlideWithHeight("","", "images/archsim/Swarm Intelligence-48.png", "750"); ?>
 	</div>
 
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;;color:#fff;">
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;;color:#ccc;">
 		<h1>Ant Colony Optimization of Structures</h1><br>
-		A modified ACO algorithm that derives from specific definition of pheromone and cooperation mechanism between ants was applied for solving topology optimization problem of structure. Mesh topology of finite element model for structure was treated as possible paths for ant’s movement. A tour on mesh topology map for seeking food finished by ant is transformed into a structure and the finite element method was applied to analyze the structure for calculating pheromone deposited on the path. The amount of accumulated pheromone deposited on every element by different ants was used to find optimum structural design. 
+		A modified ACO algorithm that derives from a specific definition of pheromone and cooperation mechanism between ants is applied for solving topology optimization problem of structure. Mesh topology of finite element model for structure was treated as possible paths for ant’s movement. A tour on mesh topology map for seeking food finished by ant is transformed into a structure and the finite element method was applied to analyze the structure for calculating pheromone deposited on the path. The amount of accumulated pheromone deposited on every element by different ants was used to find optimum structural design. 
 	</div>
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/ij_23-alife99-9.png", "815"); ?>
+	
+	<div class="step" data-x="<?php echo $x+=0;?>" data-y="0" style="line-height:36px;font-size:24px;;color:#aaa;">
+		<h1>Ant Colony Optimization of Structures</h1><br>
+		A modified ACO algorithm that derives from a specific definition of <span style="color:#fff">pheromone and cooperation mechanism between ants</span> is applied for solving topology optimization problem of structure. <span style="color:#fff">Mesh topology of finite element model for structure was treated as possible paths for ant’s movement</span>. <span style="color:#fff">A tour on mesh</span> topology map for seeking food finished by ant is <span style="color:#fff">transformed into a structure</span> and the <span style="color:#fff">finite element method was applied to analyze the structure</span> for calculating pheromone deposited</span> on the path. The amount of accumulated pheromone deposited on every element by different ants was used to find optimum structural design. 
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("","", "images/archsim/Structural Design through Ant Conoly Optmization-3.png", "714"); ?>
 	</div>
+
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","", "images/archsim/ij_23-alife99-9.png", "815"); ?>
+	</div>
+	
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("","From Swarm Intelligence", "images/archsim/Swarm Intelligence-52.png", "540"); ?>
@@ -452,6 +465,11 @@ Topological Optimization: The Problem
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 	<?php makeVideoSlide("","Level Set Method","bvf6Dm_HF4A"); ?>
 </div>
+
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeVideoSlide("","GPU-Based High Resolution Optimization","Ng6MV4x5t6k"); ?>
+</div>
+
 
 	
 <!-- CLOSING -->
