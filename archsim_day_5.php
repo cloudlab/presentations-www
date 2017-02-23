@@ -163,97 +163,81 @@ function archSimPaper($author, $title, $year){
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:30px;font-size:20px;">
-	Tie back to soap films
+	Tie back to soap nets and films
 </div>		
 
 <!-- BEFORE TOPILOGICAL OPTIMIZATION -->
 
+
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#ccc;">
-	<h1 style="color:#fff;">Photoelastic Analog Computation</h1><br>
-	<?php makeGenericSlideWithHeight("","Beauvais Cathedral. Choir model, photoelastic interference pattern produced by simulated wind loading (from Mark 1982)", "images/archsim/10.png", "600"); ?>
+	<?php makeGenericSlideWithHeight("","Photoelastic Photography", "images/archsim/020801_1_1.jpeg", "449"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#ccc;">
-	<h1 style="color:#fff;">Photoelastic Analog Computation</h1><br>
-	<?php makeGenericSlideWithHeight("","", "images/archsim/crane-hook.jpg", "600"); ?>
+	<?php makeGenericSlideWithHeight("","Photoelastic Photography", "images/archsim/crane-hook.jpg", "499"); ?>
+</div>
+
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#ccc;">
+	<?php makeGenericSlideWithHeight("","Beauvais Cathedral. Choir model, photoelastic interference pattern produced by simulated wind loading (from Mark 1982)", "images/archsim/capalm-2.png", "620"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 	<?php makeGenericSlideWithHeight("","Palazzo Littorio, Giuseppe Terragni and Pietro Lingeri, 1934, Rome, Italy (unbuilt). Photo-elastic study", "images/archsim/bell_02_body.jpg", "600"); ?>
 </div>
 
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#ccc;">
-	<h1 style="color:#fff;">Michell Frames and the existence of optimal topology</h1>
+
+
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+Michell Frame
 </div>
 
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#ccc;">
-	<h1 style="color:#fff;">Photoelastic Analog Computation</h1><br>
-	<?php makeGenericSlideWithHeight("","", "images/archsim/020801_1_1.jpeg", "600"); ?>
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeGenericSlideWithHeight("","Michell Frames and the existence of optimal topology", "images/archsim/MaxwellReciprocalDiagramandDiscreteMichellFrames-9.png", "800"); ?>
 </div>
+
 
 
 <!-- TOPILOGICAL OPTIMIZATION -->
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	SOLID THINKING INSPIRE INTRODUCTION
-	QnfkEzoD_ZA
+	Topological Optimization In Design and Process
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/inspire.png", "600"); ?>
+	<?php makeVideoSlide("","SOLID THINKING INSPIRE INTRODUCTION","QnfkEzoD_ZA"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeVideoSlide("","Topological Optimization (grasshopper + Millipede)","igRFFMSfwSQ"); ?>
-</div>
-
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/multiphysics_optimization.png", "401"); ?>
-</div>
-
-
-
-<!-- TO -->
-
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/MaxwellReciprocalDiagramandDiscreteMichellFrames-9.png", "600"); ?>
-</div>
-
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/Cazacu Razvan(Mechanics)-OVERVIEW OF STRUCTURAL TOPOLOGY OPTIMIZATION METHODS FOR PLANE AND SOLID STRUCTURES-2.png", "600"); ?>
-</div>
-
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/2007_WCSMO7-5.png", "600"); ?>
-</div>
-
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/2007_WCSMO7-4.png", "600"); ?>
-</div>
-
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/bike-gif.gif", "600"); ?>
+	<?php makeGenericSlideWithHeight("","", "images/archsim/inspire.png", "570"); ?>
 </div>
 
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/inspire.png", "600"); ?>
+Topological Optimization: The Problem
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-Optimality criteria methods are indirect optimization approaches that arrive at optimal solution by satisfying a set of conditions related to the performance of the structure. 
+<?php makeGenericSlideWithHeight("","Topological Optimization Of Structures, Krell Institute", "images/archsim/Topological_Optimization_Of_Structures_Krell_Presentation-4.png", "615"); ?>
+</div>
 
-In  contrast  to  the  classical  mathematical  optimization  methods,  which  make  use  of  the differential  equations  for  solution,  the  structural optimization  methods  often  use  simplified  algebraic  equations  which  are  solved  in  an  iterative  numerical  procedure.  In  a  simple maximization  problem,  the  structural  topology  optimization  techniques  often  involve  the following general steps: <br><br>
-1.Selection of the initial design variables (material type, thickness of plate...)<br>
-2. Evaluation of the objective function for the current setting of design variables <br>
-3. Comparison between the current properties with the prescribed values <Br>
-4. A  procedure  to  update  the  design  variables,  so  that the  objective  function  is improved and repetition of steps 2 to 4 until no further improvement of the result is achievable <Br>
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeGenericSlideWithHeight("","An Iterative Structural Optimization Process", "images/archsim/multiphysics_optimization.png", "481"); ?>
+</div>
 
-Bi-directional Evolutionary Structural Optimization (BESO) for Topology Optimization of Material’s Microstructure, Arash Radman 2013
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeGenericSlideWithHeight("","", "images/archsim/2007_WCSMO7-5.png", "900"); ?>
+</div>
+
+
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeGenericSlideWithHeight("","", "images/archsim/bike-gif.gif", "430"); ?>
 </div>
 
 
 <!-- SIMP -->
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#ccc;">
+	Solid Isotropic Material Penalization
+</div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#ccc;">
 	<h1 style="color:#fff;">Homogenization</h1><br>
@@ -265,71 +249,71 @@ Bi-directional Evolutionary Structural Optimization (BESO) for Topology Optimiza
 	The central idea of the <span style="color:#fff;">homogenization method</span> is to convert the topology optimization problem to a large sizing optimization problem by <span style="color:#fff;">defining topology as material distribution</span>. Many of the well-known topology optimization methods adopted the material distribution approach. This includes  <span style="color:#fff;">Solid Isotropic Microstructures with Penalization (SIMP) and Bi-directional Evolutionary Structural Optimization (BESO)</span> methods.
 </div>
 
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeGenericSlideWithHeight("","", "images/archsim/microstructures.png", "600"); ?>
+</div>
+
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeGenericSlideWithHeight("","From Suitability of SIMP and BESO Topology Optimization Algorithms for Additive Manufacture", "images/archsim/flow.png", "667"	); ?>
+</div>
+
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeGenericSlideWithHeight("","Output of SIMP with different parameters", "images/archsim/simp_output.png", "692"); ?>
+</div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;;color:#fff;">
 	<h1>Instabilities</h1><br>
-	According to Sigmund and Petersson (1998), most topology optimization methods (including SIMP and BESO) are prone to three common numerical instabilities: mesh-dependency, formation of checkerboard patterns, and the local minima problem. 
+	Sigmund and Petersson (1998): most topology optimization methods (including SIMP and BESO) are prone to three common numerical instabilities: mesh-dependency, formation of checkerboard patterns, and the local minima problem. 
 </div>
 
-
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/003104j.15.jpeg", "600"); ?>
-</div>
-
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","OVERVIEW OF STRUCTURAL TOPOLOGY OPTIMIZATION METHODS FOR PLANE AND SOLID STRUCTURES", "images/archsim/Cazacu Razvan(Mechanics)-OVERVIEW OF STRUCTURAL TOPOLOGY OPTIMIZATION METHODS FOR PLANE AND SOLID STRUCTURES-3.png", "600"); ?>
-</div>
-
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/A0128-6.png", "600"); ?>
-</div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 	<?php makeGenericSlideWithHeight("","", "images/archsim/Shape_optimization_by_the_homogenization_method-39.png", "600"); ?>
 </div>
+	
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeGenericSlideWithHeight("","Mesh Dependency", "images/archsim/003104j.15.jpeg", "600"); ?>
+</div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/microstructures.png", "600"); ?>
+	<?php makeGenericSlideWithHeight("","Checkerboarding", "images/archsim/A0128-6.png", "844"); ?>
+</div>
+
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeVideoSlide("","Sawapan TopoStruct Software","OCc-s6mxQqc"); ?>
 </div>
 
 <!-- BESO -->
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/chaise.gif", "600"); ?>
+	Bi-directional Evolutionary Optimization (BESO)
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	Bi-directional Evolutionary Optimization (BESO) of truss (non-linear material)<br>
-	https://www.youtube.com/watch?v=LkTam7bev14<br>
+	<?php makeVideoSlide("","Bi-directional Evolutionary Optimization (BESO) of truss (non-linear material)","LkTam7bev14"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/Cazacu Razvan(Mechanics)-OVERVIEW OF STRUCTURAL TOPOLOGY OPTIMIZATION METHODS FOR PLANE AND SOLID STRUCTURES-4.png", "600"); ?>
+	<?php makeGenericSlideWithHeight("","BESO Algorithm", "images/archsim/Cazacu Razvan(Mechanics)-OVERVIEW OF STRUCTURAL TOPOLOGY OPTIMIZATION METHODS FOR PLANE AND SOLID STRUCTURES-4.png", "720"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/Cazacu Razvan(Mechanics)-OVERVIEW OF STRUCTURAL TOPOLOGY OPTIMIZATION METHODS FOR PLANE AND SOLID STRUCTURES-5.png", "600"); ?>
+	<?php makeGenericSlideWithHeight("","", "images/archsim/Cazacu Razvan(Mechanics)-OVERVIEW OF STRUCTURAL TOPOLOGY OPTIMIZATION METHODS FOR PLANE AND SOLID STRUCTURES-5.png", "415"); ?>
 </div>
+
+
+<!-- BESO Projects -->
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","", "images/archsim/image003_jyhta6.jpg", "600"); ?>
-</div>
-
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Luca Frattari for solidThinking Inspire ", "images/archsim/28ea0440327b205666cc0b3ee93bb6e4.jpg", "559"); ?>
-	</div>
-
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVideoSlide("","Sawapan TopoStruct Software","OCc-s6mxQqc"); ?>
-	</div>
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","BESO in Topogly Optimization of Microstructure", 
-										 "images/archsim/BESO in Topogly Optimization of Microstructure-202.jpg", "496"); ?>
+	BESO Projects
 	</div>
 	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeGenericSlideWithHeight("","Luca Frattari for solidThinking Inspire ", "images/archsim/28ea0440327b205666cc0b3ee93bb6e4.jpg", "559"); ?>
+</div>
+
+
+
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("","", "images/dd/soft_kill-1.png", "811"); ?>
 	</div>
@@ -338,13 +322,7 @@ Bi-directional Evolutionary Structural Optimization (BESO) for Topology Optimiza
 		<?php makeVimeoSlide("","Bone Chair, Joris Laarman","146039736"); ?>
 	</div>
 
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">	
-	 	<?php makeGenericSlideWithHeight("", "Within Lab Tibial Tray medical implant","images/digdet/WithinLabPlate.png",560);?>
-	</div>
 	
-	
-	
-<!-- BESO Projects -->
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("","3D printed tension joint, Arup Engineers and Within Labs", "images/archsim/Arup-3d-printed-steel_dezeen_468_1.jpg", "559"); ?>
@@ -356,33 +334,27 @@ Bi-directional Evolutionary Structural Optimization (BESO) for Topology Optimiza
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","Generate by Frustum", "images/archsim/AAEAAQAAAAAAAAeOAAAAJDgxY2Q1YzcwLTE5MGUtNDYwOS1hYmRmLWFlNDU4YzE4NjY1NQ.png", "600"); ?>
+	<?php makeGenericSlideWithHeight("","Generate by Frustum", "images/archsim/image003_jyhta6.jpg", "493"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","Generate by Frustum", "images/archsim/image003_jyhta6.jpg", "600"); ?>
+	<?php makeVideoSlide("","Solid Thinking, Inspire: Peter Macapia","ua1fqpRH6F8"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	Solid Thinking, Inspire: Peter macapia<br>
-	https://www.youtube.com/watch?v=ua1fqpRH6F8<br>
+	<?php makeVideoSlide("","Solid Thinking, Inspire: morphogenesis","y06RWQmo2XI"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	Solid Thinking, Inspire: morphogenesis (stadium)<br>
-	https://www.youtube.com/watch?v=y06RWQmo2XI<br>
+	<?php makeGenericSlideWithHeight("","3D printed EDAG Light Cocoon concept car, with Next Generation Spaceframe, EDAG Engineering, Laser Zentrum Nord, Concept Laser, and the BLM Group ", "images/archsim/does-3d-printed-nextgen-spaceframe-represent-future-automobile-design-5.jpg", "547"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","D printed EDAG Light Cocoon concept car, with Next Generation Spaceframe, EDAG Engineering, Laser Zentrum Nord, Concept Laser, and the BLM Group ", "images/archsim/does-3d-printed-nextgen-spaceframe-represent-future-automobile-design-3.jpg", "600"); ?>
+	<?php makeGenericSlideWithHeight("","3D printed EDAG Light Cocoon concept car, with Next Generation Spaceframe, EDAG Engineering, Laser Zentrum Nord, Concept Laser, and the BLM Group ", "images/archsim/does-3d-printed-nextgen-spaceframe-represent-future-automobile-design-3.png", "690"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","D printed EDAG Light Cocoon concept car, with Next Generation Spaceframe, EDAG Engineering, Laser Zentrum Nord, Concept Laser, and the BLM Group ", "images/archsim/does-3d-printed-nextgen-spaceframe-represent-future-automobile-design-5.jpg", "600"); ?>
-</div>
-
-<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","SOM and University of Illinois", "images/archsim/11stromberg_towardgroupoptimization.png", "600"); ?>
+	<?php makeGenericSlideWithHeight("","SOM and University of Illinois", "images/archsim/11stromberg_towardgroupoptimization.png", "580"); ?>
 </div>
 
 
@@ -390,45 +362,55 @@ Bi-directional Evolutionary Structural Optimization (BESO) for Topology Optimiza
 <!-- ANTS -->
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/ij_23-alife99-9.png", "600"); ?>
+		<?php makeGenericSlideWithHeight("","", "images/archsim/630px-Metaheuristics_classification.svg.png", "579"); ?>
 	</div>
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;;color:#fff;">
-		<h1>Ant Colony Optimization of Structures</h1><br>
-		A modified ACO algorithm that derives from specific definition of pheromone and cooperation mechanism between ants was applied for solving topology optimization problem of structure. Mesh topology of finite element model for structure was treated as possible paths for ant’s movement. A tour on mesh topology map for seeking food finished by ant is transformed into a structure and the finite element method was applied to analyze the structure for calculating pheromone deposited on the path. The amount of accumulated pheromone deposited on every element by different ants was used to find optimum structural design. From the results studied in this paper, the purposed ACO algorithm provides as alternate optimization method that has high potential in finding the best design for topology optimization of structure successfully and efficiently.
-	</div>
+	
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Stigmergy is a mechanism of indirect coordination, through the environment, between agents or actions. . The principle is that the trace left in the environment by an action stimulates the performance of a next action, by the same or a different agent. In that way, subsequent actions tend to reinforce and build on each other, leading to the spontaneous emergence of coherent, apparently systematic activity.", "images/archsim/Ant_Colony_2.jpg", "319"); ?>
+		ANT COLONY OPTIMIZATION
 	</div>
-
+	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeVideoSlide("","Ant Pheremone Video","UZ2HTTeM3aQ"); ?>
 	</div>
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/Structural Design through Ant Conoly Optmization-3.png", "600"); ?>
+		<?php makeGenericSlideWithHeight("","", "images/archsim/The_Ant_System-2.png", "560"); ?>
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/The_Ant_System-2.png", "600"); ?>
+		<?php makeGenericSlideWithHeight("","From Swarm Intelligence", "images/archsim/Swarm Intelligence-43.png", "530"); ?>
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/Swarm Intelligence-42.png", "600"); ?>
+		<?php makeGenericSlideWithHeight("","", "images/archsim/Swarm Intelligence-48.png", "750"); ?>
+	</div>
+
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;;color:#fff;">
+		<h1>Ant Colony Optimization of Structures</h1><br>
+		A modified ACO algorithm that derives from specific definition of pheromone and cooperation mechanism between ants was applied for solving topology optimization problem of structure. Mesh topology of finite element model for structure was treated as possible paths for ant’s movement. A tour on mesh topology map for seeking food finished by ant is transformed into a structure and the finite element method was applied to analyze the structure for calculating pheromone deposited on the path. The amount of accumulated pheromone deposited on every element by different ants was used to find optimum structural design. 
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/Swarm Intelligence-43.png", "600"); ?>
+		<?php makeGenericSlideWithHeight("","", "images/archsim/ij_23-alife99-9.png", "815"); ?>
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/Swarm Intelligence-48.png", "600"); ?>
+		<?php makeGenericSlideWithHeight("","", "images/archsim/Structural Design through Ant Conoly Optmization-3.png", "714"); ?>
 	</div>
 
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/Swarm Intelligence-52.png", "600"); ?>
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","From Swarm Intelligence", "images/archsim/Swarm Intelligence-52.png", "540"); ?>
 	</div>
+	
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","", "images/archsim/Ant_Colony_2.jpg", "319"); ?>
+	</div>
+
+
+
 <!-- ANT PROJECTS -->
 
 
@@ -447,33 +429,41 @@ Bi-directional Evolutionary Structural Optimization (BESO) for Topology Optimiza
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<?php makeGenericSlideWithHeight("","Autodesk Dreamcatcher", "images/archsim/drone-sequence.gif", "600"); ?>
+	<?php makeGenericSlideWithHeight("","Autodesk Dreamcatcher", "images/archsim/drone-sequence.gif", "500"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-Autodesk Dreamcatcher 
-https://www.youtube.com/watch?v=CtYRfMzmWFU
+	<?php makeVideoSlide("","Autodesk Dreamcatcher ","CtYRfMzmWFU"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","A multi-resolution method for 3D multi-material topology optimization", "images/archsim/A multi-resolution method for 3D multi-material topology optimization-11.png", "600"); ?>
+		<?php makeGenericSlideWithHeight("","A multi-resolution method for 3D multi-material topology optimization", "images/archsim/A multi-resolution method for 3D multi-material topology optimization-11.png", "720"); ?>
 </div>
 
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeGenericSlideWithHeight("","BESO in Topogly Optimization of Microstructure", 
+									 "images/archsim/BESO in Topogly Optimization of Microstructure-202.jpg", "496"); ?>
+</div>
+	
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 	<?php makeGenericSlideWithHeight("","Level Set Method", "images/archsim/DETC2016-59350-9.png", "600"); ?>
 </div>
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	Level Set Method<br>
-	https://www.youtube.com/watch?v=bvf6Dm_HF4A<br>
+	<?php makeVideoSlide("","Level Set Method","bvf6Dm_HF4A"); ?>
 </div>
 
-
+	
 <!-- CLOSING -->
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/630px-Metaheuristics_classification.svg.png", "600"); ?>
+		<?php makeGenericSlideWithHeight("","", "images/archsim/630px-Metaheuristics_classification.svg.png", "579"); ?>
 	</div>
+	
+	
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeVideoSlide("","Topological Optimization (grasshopper + Millipede)","igRFFMSfwSQ"); ?>
+</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 
