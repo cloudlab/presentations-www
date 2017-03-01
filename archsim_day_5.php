@@ -430,7 +430,11 @@ Topological Optimization: The Problem
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("","Qatar National Convention Centre by Arata Isozaki and Mitsuro Sazaki", "images/archsim/dezeen_Qatar-National-Convention-Centre-by-Arata-Isozaki_1sq.jpg", "468"); ?>
 	</div>
-
+	
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Qatar National Convention Centre by Arata Isozaki and Mitsuro Sazaki", "images/archsim/sasaki.png", "600"); ?>
+	</div>
 	
 
 
@@ -525,9 +529,10 @@ Topological Optimization: The Problem
   
 		<span style="font-size:48pt;">		For Next Week	</span><Br>
 		<br>
-		<li>Workshop: Grashopper and Millipeda</li>
-		<li>Bring (or reserve form AV) a computer (even if no Rhino)</li>
-		<li>Stay on top of new readings!</li>
+		<li>Workshop: Grashopper, Millipede, Karamba</li>
+		<li>Bring a laptop if you are able (even if no Rhino)</li>
+		<li>Toru will contact you re: plugin downloads and workshop grouping</li>
+		<li>Look out for Dropbox update and stay on top of new readings!</li>
 		<Br>
 		<Br>
 	   <h1 style="font-size:48px;line-height:50px;">A4707 ARCH<span style="color:#fff;"><b>SIM</b></span></h1>
