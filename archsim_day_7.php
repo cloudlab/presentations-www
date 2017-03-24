@@ -80,10 +80,9 @@ function archSimPaper($author, $title, $year){
 
 <div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 <h1>NEW PAPERS</h1><br>
-		<?php archSimPaper("", ""); ?>
-		<?php archSimPaper("", ""); ?>
-		<?php archSimPaper("", ""); ?>
-		<?php archSimPaper("", ""); ?>
+		<?php archSimPaper("Karl Sims","Evolving 3D Morphology and Behavior by Competition", "1994"); ?>
+		<?php archSimPaper("John Holland", "Genetic Algorithms", "2014"); ?>
+		<?php archSimPaper("M L Bendikt", "Isovist &amp; Isovist Fields", "1979"); ?>
 </div>
 
 <!-- The Models -->	
@@ -154,6 +153,12 @@ function archSimPaper($author, $title, $year){
 	</div>
 
 
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:36px;">
+	<b>What <i>is</i> Evolution?</b>
+	</div>
+
+
 	<!- INTRO TO EVOLUTION -->
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0"  style="line-height:36px;font-size:24px;">	
@@ -161,7 +166,7 @@ function archSimPaper($author, $title, $year){
 	 	"Genes and Blueprints",
 	 	"Darwin's Finches and First Evolutionary Tree Sketch, On the Origin of Species 1859", 
 	 	"images/evodes/Darwins_finches_by_Gould.png", 
-	 	"650"); ?>
+	 	"450"); ?>
 	</div>
 	
 	
@@ -170,7 +175,7 @@ function archSimPaper($author, $title, $year){
 	 	"Genes and Blueprints",
 	 	"Watson and Crick model of DNA, 1953", 
 	 	"images/evodes/Watson-Crick-DNA-model.jpg", 
-	 	"650"); ?>
+	 	"550"); ?>
 	</div>
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0"  style="line-height:36px;font-size:24px;">	
@@ -421,6 +426,17 @@ makeImageGrid("", "A SIMPLE SCENARIO", $images, 2);
 		<?php makeGenericSlideWithHeight("","Jon McCormack, Bloom 2006", "images/archsim/bloom.jpg", "900"); ?>
 	</div>
 	
+	
+	<!-- Asthetic selection -->
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Human-Based Selection", "images/archsim/screen.jpg", "564"); ?>
+	</div>
+		
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:36px;">
+	<b>Fitness: Locomotion</b>
+	</div>
 
 	<!-- PROJECT: EVOLVING LOCOMOTION -->
 
@@ -450,38 +466,62 @@ makeImageGrid("", "A SIMPLE SCENARIO", $images, 2);
 		"Theo Jansen: My creations, a new form of life (TED) 03:10" , 
 		"b694exl_oZo"); ?>
 	</div>
-
-    <!-- PROJECT: OPTICS -->
-
 	
-    <!-- PROJECT: ATTENAE DESIGN -->
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:36px;">	
+	 	What other fitness criteria are out there?
+	</div>
+
+    <!-- PROJECT: antenna DESIGN -->
    
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">	
-	 	<?php makeGenericSlideWithHeight(
-	 	"", "Gregory S. Hornby for NASA, 2005", "images/evodes/GeneticallyGrownAntennas_NASA-web.jpg", "520"); ?>
+	 	<?php makeGenericSlideWithHeight("", "Design of an antenna by Genetic Algorithm, Gregory S. Hornby for NASA, 2005", "images/evodes/GeneticallyGrownAntennas_NASA-web.jpg", "520"); ?>
 	</div>
 	
+    <!-- PROJECT: OPTICS -->
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Conceptual Evolutionary Design by a Genetic Algorithm, Peter Bentley 1996", "images/archsim/lens-1.jpg", "632"); ?>
+	</div>
 	
+		<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Conceptual Evolutionary Design by a Genetic Algorithm, Peter Bentley 1996", "images/archsim/prisims.jpg", "632"); ?>
+	</div>
 
+	<!-- PROJECT: GA PLANE SONIC BOOM -->
 
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","", "images/archsim/ga-13.jpg", "700"); ?>
+	</div>
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","", "images/archsim/ga-9.jpg", "760"); ?>
+	</div>
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","", "images/archsim/ga-10.jpg", "380"); ?>
+	</div>
+	
 	<!-- PROJECT: BOOM -->
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/boom.jpg", "690"); ?>
+		<?php makeGenericSlideWithHeight("","The Design of a Satellite Boom with Enhanced Vibration Performance Using Genetic Algorithms, 1996", "images/archsim/boom.jpg", "690"); ?>
 	</div>
 	
     <!-- PROJECT: STRUCTURAL OPTIMIZATION -->
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Genetic Algorithms as an Approach to Configuration and Topology Design, 94 MIT CAD lab", "images/archsim/topop-2.jpg", "560"); ?>
+	</div>
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Genetic Algorithms as an Approach to Configuration and Topology Design, 94 MIT CAD lab", "images/archsim/topop-3.jpg", "560"); ?>
+	</div>
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Genetic Algorithms as an Approach to Configuration and Topology Design, 94 MIT CAD lab", "images/archsim/topop-1.jpg", "560"); ?>
+	</div>
+
 	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	Structures<br><br>
-	Still need typical truss
-	</div>
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/ga-6.jpg", "800"); ?>
-	</div>
-
-
 	<!-- PROJECT: EZCT CHAIR -->
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
@@ -508,15 +548,7 @@ makeImageGrid("", "A SIMPLE SCENARIO", $images, 2);
 	 	"images/evodes/20090907172938.jpg", 
 	 	"560"); ?>
 	</div>	
-	
 
-	<!-- PROJECT: ADDITIONAL EZCT PROJECT -->
-
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">	
-	 	ADDITIONAL EZCT PROJECT
-	</div>	
-	
 	
 	<!-- PROJECT - TOPOLOGICAL GRID -->
 	
@@ -527,59 +559,34 @@ makeImageGrid("", "A SIMPLE SCENARIO", $images, 2);
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("","000 Studio (Shohei Matsukawa) Topological Grid genetic algorithm for space planning", "images/archsim/topologicalgrid3.jpg", "820"); ?>
 	</div>
-
-	
-	<!-- PROJECT: GENR8 TESTA -->
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/genr8.jpg", "500"); ?>
-	</div>
-
-	
-
-	<!-- PROJECT: GA PLANE SONIC BOOM -->
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/ga-13.jpg", "700"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/ga-12.jpg", "620"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/ga-10.jpg", "380"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/ga-9.jpg", "760"); ?>
-	</div>
-
-	<!-- PROJECT: FRAZER -->
-	
-	
-	
-	
+		
 	
 	<!-- GALAPAGOS -->
-	
+
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0"  style="line-height:36px;font-size:24px;">
-		Video - galapagos
+		...and next week - you!
+	</div>
+	
+	
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0"  style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide("","Galapagos by David Rutton and McNeel","TGVwz4c6ieY"); ?>
 	</div>
 	
 	<!-- ? Transition to Problem? -->
 	 
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:48px;font-size:48px;">
 	Where's our Cambrian explosion?
 	</div>
 	
 	<!-- ? Transition to Problem? -->
 	 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-<b>Problem</b><Br>
+<b>Problems</b><Br><br>
 Difficulty of Expressing Fitness<br>
 Difficulty of Expressing Space/Geometry Relationships As Genes<br>
 
+Genetic Algorithms as an Approach to Configuration and Topology Design, 94 MIT
 
 	</div>
 	
@@ -628,7 +635,7 @@ Difficulty of Expressing Space/Geometry Relationships As Genes<br>
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Isovist Fields - a new model for spatial representation and computation", "images/archsim/2012_05_26-isovist.gif", "320"); ?>
+		<?php makeGenericSlideWithHeight("","from Designcoding", "images/archsim/2012_05_26-isovist.gif", "320"); ?>
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
