@@ -585,15 +585,13 @@ makeImageGrid("", "A SIMPLE SCENARIO", $images, 2);
 <b>Problems</b><Br><br>
 Difficulty of Expressing Fitness<br>
 Difficulty of Expressing Space/Geometry Relationships As Genes<br>
-
-Genetic Algorithms as an Approach to Configuration and Topology Design, 94 MIT
-
 	</div>
 	
 	
    <!-- SPACE SYNTAX -->
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:28px;font-size:20px;">
+	One possible solution...<Br><Br>
 		<span  style="line-height:48px;font-size:36px;">Space Syntax</span>
 		<br><br>
 		The general idea is that spaces can be broken down into components, analyzed as networks of choices, then represented as maps and graphs that describe the relative connectivity and integration of those spaces. It rests on three basic conceptions of space:
