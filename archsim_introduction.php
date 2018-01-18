@@ -46,738 +46,106 @@ $x = 0;
         
     </div>
 
-
-    <!-- Main Theme #1  -->
-	<div id="" class="step" data-x="1000" data-y="1000" data-rotate="90" data-scale="1.0">        
-        <?php makeThemeSlide(
-        "Explore Alteratives in Design Process and Externalize Design Intelligence",
-        "Theme #1: Methodology",
-        "images/evodes-bone-chair.jpg"); ?>
-    </div>
-    
-    
- 	<!-- Main Theme #2   -->
-	<div id="" class="step" data-x="900" data-y="1500" data-rotate="180" data-scale="1.0">
-    	<?php makeThemeSlide(
-    	"Incorporating Time, Forces and the Environment into Architectural Ideation",
-    	"Theme #2: Simulation",
-    	"images/evodes-simulation.png"); ?>
-    </div>
-
-
-  	<!-- Main Theme #3   -->
-    <div id="" class="step" data-x="<?php echo $x+=1000;?>" data-y="1000" data-rotate="90" data-scale="1.0">
-    	<?php makeThemeSlide(
-    	"Thinking through fitness, evaluation and selection",
-    	"Theme #3: Performance &amp; Environment",
-    	"images/evodes-galapagos.png"); ?>
-    </div>
-
-
-    
 	<!-- Syllabus Intro -->
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 
-
+		<p>http://proxyarch.com/archsim.pdf</b>
 		<p style="color:#aaa;"><span style="color:#fff;">This seminar introduces a powerful set of models to simulate, predict and even improve architectural design. </span>
 		We look at models that reduce systems to their most critical relationships while opening them to new conjectures and productivity. 
 		Pulled from the worlds of material computing, biomimetics, computational geometry and data science, these simulation-based models are 
 		well documented and highly applicable to architectural design.
 		</p>
 		<br>
-		<?php addAccentImageWithCreditAndHeight("Class Syllabus", 'images/archsim/archsim-SyllabusAccent.png', 620,350,100); ?>
+		<?php addAccentImageWithCreditAndHeight("", 'images/archsim/archsim-SyllabusAccent.png', 620,350,100); ?>
 
 	</div>
 	
 	<!-- Whats a model? -->
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 
-	<b>What is a model?</b>
+	<b style="font-size:40pt; ">What is a model?</b>
 	<br>
 	<br>
-	<i>A model</i> is a task-driven, purposeful simplification and abstraction of a perception of reality.<br><br>
-	<i>A simulation</i> is the implementation of a model.<br><br>
+	<span style="font-size:18pt;">
+	<i>A model</i> is a task-driven, purposeful simplification or abstraction<br>
+	<i>A simulation</i> is an instance of the model
+	</span>
+	<br><br>
 
-	For our purposes, a model does <i>work</i>.<br><br>
-
-
-	</div>
-	
-	
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		Models... do work<br>
 		Models... are invented<br>
 		Models... are refined<br>
-		Models... are insightful<Br>
-		Models... are portable<br>
+		Models... are connectable<br>
 		Models... think?
 	</div>
 
 
 	<!-- The Models -->	
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:30px;font-size:20px;">
 		<h1 style="color:#fff;">OUR MODEL TAXONOMY</h1>
-
 		<table style="color:#aaa;">
 		<tr>
 			<td style="padding:20px;">
 
-				<h3 style="color:#fff;">CHEMICAL MODELS</h3>
+				<h3><span style="color:#fff;">CHEMICAL MODELS</span></h3>
 				<ul>
 				<li>Reaction Diffusion</li>
-				<li>Leaf Venation</li>
-				<li>Diffusion Limited Aggregation</li>
-				<li>Medial Axis/Skeletonization</li>
 				<li>Cellular Automata</li>
+				<li>Diffusion Limited Aggregation</li>
+				<li>Leaf Venation</li>
+				<li>Medial Axis/Skeletonization</li>
+				</span>
 				</ul>
-
 				<br>
-				<h3 style="color:#fff;">PHYSICS BASED SHAPE OPTIMIZATION</h3>
-				<ul>
-				<li>Hanging Chain Models</li>
-				<li>Soap Film Optimization</li>
-				</ul>
-
-				<br>
-				<h3 style="color:#fff;">TOPOLOGICAL OPTIMIZATION</h3>
-				<ul>
-				<li>Morphological evolutionary structural optimization MESO</li>
-				<li>Bi-Directional evolutionary structural optimization BESO</li>
-				<li>Solid Isotropic Material Penalization SIMP</li>
 				
-				</ul>
-
-			</td>
-			
-			
-			<td style="padding:20px;">
-
-				<h3 style="color:#fff;">AGENT BASED MODELS</h3>
-				<ul>
-				<li>Space Colonization Algorithm</li>
-				<li>Ant Colony Optimization</li>
-				</ul>
-
-				<br>
-				<h3 style="color:#fff;">HUMAN PERCEPTION, COGNITION, ACTION</h3>
-				<ul>
-				<li>Schelling Model of Separation</li>
-				<li>Neural Networks</li>
-				<li>Isovist Fields</li>
-				</ul>
-
-				<br>
-				<h3 style="color:#fff;">EVOLUTIONARY</h3>
-				<ul>
-				<li>Genetic Algorithm</li>
-				</ul>
-			</td>
-		</tr></table>
-	
-	</div>	
-	
-	
-	<!-- The Models -->	
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<h1 style="color:#fff;">OUR MODEL TAXONOMY</h1>
-		<table style="color:#aaa;">
-		<tr>
-			<td style="padding:20px;">
-				<span style="color:#fff;">
-				<h3><b>CHEMICAL MODELS</b></h3>
-				<ul>
-				<li>Reaction Diffusion</li>
-				<li>Leaf Venation</li>
-				<li>Diffusion Limited Aggregation</li>
-				<li>Medial Axis/Skeletonization</li>
-				<li>Cellular Automata</li>
-				</ul>
-				</span>
-				<br>
-				<h3>PHYSICS BASED SHAPE OPTIMIZATION</h3>
-				<ul>
-				<li>Hanging Chain Models</li>
-				<li>Soap Film Optimization</li>
-				</ul>
-				<br>
-				<h3>TOPOLOGICAL OPTIMIZATION</h3>
-				<ul>
-				<li>Morphological evolutionary structural optimization MESO</li>
-				<li>Bi-Directional evolutionary structural optimization BESO</li>
-				<li>Solid Isotropic Material Penalization SIMP</li>
-				</ul>
-			</td>
-			<td style="padding:20px;">
-				<h3>AGENT BASED MODELS</h3>
-				<ul>
-				<li>Space Colonization Algorithm</li>
-				<li>Ant Colony Optimization</li>
-				</ul>
-				<br>
-				<h3>HUMAN PERCEPTION, COGNITION, ACTION</h3>
-				<ul>
-				<li>Schelling Model of Separation</li>
-				<li>Neural Networks</li>
-				<li>Isovist Fields</li>
-				</ul>
-				<br>
-				<h3>EVOLUTIONARY</h3>
-				<ul>
-				<li>Genetic Algorithm</li>
-				</ul>
-			</td>
-		</tr></table>
-	</div>	
-	
-<!-- DLA -->
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVideoSlide("","Hastings Levitov model, Henry Jackson","4lSfK6S7Qvk"); ?>
-	</div>
-
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/DLA_Topological_scaling.jpg", "617"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/DLA_2.png", "444"); ?>
-	</div>
-
-<!-- reaction diffusion -->
-
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Reaction Diffusion Patterns", "images/archsim/Diffusion_1.png", "620"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVideoSlide("","Reaction-Diffusion Example, Gray-Scott model, Karl Sims","8dTmUr5qKvI"); ?>
-	</div>
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Reaction Diffusion Algorithm Explained", "images/archsim/Reaction_training.jpg", "511"); ?>
-	</div>
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Reaction Diffusion with biases", "images/archsim/diffusion_patterns.jpg", "647"); ?>
-	</div>
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Leaf Venation, Nervous Systems", "images/archsim/folium_patterns.jpg", "517"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Diffusion in 3D, Michael Hansmeyer", "images/archsim/voxels1.jpg", "400"); ?>
-	</div>
-
-<!-- CA-->
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/archsim/Cellular_Automata_Wolfram_Brian-8.png", "559"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/evodes/Cellular_Automata_Wolfram_Brian-6.png", "560"); ?>
-	</div>
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Karl Chu, 1-Dimensional CA", "images/archsim/6chuCorr-1.jpg", "606"); ?>
-	</div>
-
-	
-<!-- physical models -->
-
-<div class="step" data-x="<?php echo $x+=2000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<h1 style="color:#fff;">OUR MODEL TAXONOMY</h1>
-		<table style="color:#aaa;">
-		<tr>
-			<td style="padding:20px;">
-
-				<h3>CHEMICAL MODELS</h3>
-				<ul>
-				<li>Reaction Diffusion</li>
-				<li>Leaf Venation</li>
-				<li>Diffusion Limited Aggregation</li>
-				<li>Medial Axis/Skeletonization</li>
-				<li>Cellular Automata</li>
-				</ul>
-				</span>
-				<br>
-				<span style="color:#fff;">
-								<h3><b>PHYSICS BASED SHAPE OPTIMIZATION</b></h3>
+				<h3><span style="color:#fff;">PHYSICS BASED SHAPE OPTIMIZATION</span></h3>
 				<ul>
 				<li>Hanging Chain Models</li>
 				<li>Soap Film Optimization</li>
 				</ul>
 				</span>
-								<br>
-				<h3>TOPOLOGICAL OPTIMIZATION</h3>
-				<ul>
-				<li>Morphological evolutionary structural optimization MESO</li>
-				<li>Bi-Directional evolutionary structural optimization BESO</li>
-				<li>Solid Isotropic Material Penalization SIMP</li>
-				</ul>
-			</td>
-			<td style="padding:20px;">
-				<h3>AGENT BASED MODELS</h3>
-				<ul>
-				<li>Space Colonization Algorithm</li>
-				<li>Ant Colony Optimization</li>
-				</ul>
-				<br>
-				<h3>HUMAN PERCEPTION, COGNITION, ACTION</h3>
-				<ul>
-				<li>Schelling Model of Separation</li>
-				<li>Neural Networks</li>
-				<li>Isovist Fields</li>
-				</ul>
-				<br>
-				<h3>EVOLUTIONARY</h3>
-				<ul>
-				<li>Genetic Algorithm</li>
-				</ul>
-			</td>
-		</tr></table>
-	</div>	
-	
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Cadenary Software, Processing", "images/archsim/killian.jpg", "597"); ?>
-	</div>
-	
-	
-	<!-- Soft Body Physics Cadenary Paper -->
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php
-		$hanging = array(
-					'images/dd/killian-1.png',
-					'images/dd/killian-2.png');
-		makeImageGrid("", "A funicular structure could be said to be a structure which can achieve equilibrium state by adopting a mechanism of a 'right' form (shape/geometry) corresponding to the applied loads", $hanging, 2); ?>
-	</div>
-	
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Thrust Network Analysis, Block Research Group (BRG) at the Institute of Technology in Architecture at ETH Zurich", "images/archsim/main-qimg-6a1810da7f516477027ad97c7628a496-c.jpg", "579"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Funicular Shell Design: Geometric Approaches to Form Finding and Fabrication of Discrete Funicular Structures, ETH Zurich", "images/archsim/brg_dezeen_2880x1620_72dpi_jpg_1465559796_1248x702.jpg", "461"); ?>
-	</div>
-		
-	<!-- Kangaroo Video -->
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVimeoSlide("","","8842130"); ?> <!-- alt: 8706003 -->
-	</div>
-
-	
-<!-- topological optimization -->
-
-<div class="step" data-x="<?php echo $x+=2000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<h1 style="color:#fff;">OUR MODEL TAXONOMY</h1>
-		<table style="color:#aaa;">
-		<tr>
-			<td style="padding:20px;">
-
-				<h3>CHEMICAL MODELS</h3>
-				<ul>
-				<li>Reaction Diffusion</li>
-				<li>Leaf Venation</li>
-				<li>Diffusion Limited Aggregation</li>
-				<li>Medial Axis/Skeletonization</li>
-				<li>Cellular Automata</li>
-				</ul>
-				</span>
-				<br>
-								<h3>PHYSICS BASED SHAPE OPTIMIZATION</h3>
-				<ul>
-				<li>Hanging Chain Models</li>
-				<li>Soap Film Optimization</li>
-				</ul>
-								<br>
-				<span style="color:#fff;">
-				<h3><b>TOPOLOGICAL OPTIMIZATION</b></h3>
-				<ul>
-				<li>Morphological evolutionary structural optimization MESO</li>
-				<li>Bi-Directional evolutionary structural optimization BESO</li>
-				<li>Solid Isotropic Material Penalization SIMP</li>
-				</ul>
-				</span>
-			</td>
-			<td style="padding:20px;">
-				<h3>AGENT BASED MODELS</h3>
-				<ul>
-				<li>Space Colonization Algorithm</li>
-				<li>Ant Colony Optimization</li>
-				</ul>
-				<br>
-				<h3>HUMAN PERCEPTION, COGNITION, ACTION</h3>
-				<ul>
-				<li>Schelling Model of Separation</li>
-				<li>Neural Networks</li>
-				<li>Isovist Fields</li>
-				</ul>
-				<br>
-				<h3>EVOLUTIONARY</h3>
-				<ul>
-				<li>Genetic Algorithm</li>
-				</ul>
-			</td>
-		</tr></table>
-	</div>	
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","3D printed tension joint, Arup Engineers and Within Labs", "images/archsim/Arup-3d-printed-steel_dezeen_468_1.jpg", "559"); ?>
-	</div>
-	
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Luca Frattari for solidThinking Inspire ", "images/archsim/28ea0440327b205666cc0b3ee93bb6e4.jpg", "559"); ?>
-	</div>
-
-	
-	<!-- Sawapan Structural Optimization -->
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVideoSlide("","Sawapan TopoStruct Software","OCc-s6mxQqc"); ?>
-	</div>
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","BESO in Topogly Optimization of Microstructure", 
-										 "images/archsim/BESO in Topogly Optimization of Microstructure-202.jpg", "496"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","", "images/dd/soft_kill-1.png", "811"); ?>
-	</div>
-
-	<!-- Sawapan Structural Optimization -->
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVimeoSlide("","Bone Chair, Joris Laarman","146039736"); ?>
-	</div>
-
-	<!-- Metal Printing -->
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">	
-	 	<?php makeGenericSlideWithHeight("", "Within Lab Tibial Tray medical implant","images/digdet/WithinLabPlate.png",560);?>
-	</div>
-
-	
-<!-- agent based -->
-
-	<div class="step" data-x="<?php echo $x+=2000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<h1 style="color:#fff;">OUR MODEL TAXONOMY</h1>
-		<table style="color:#aaa;">
-		<tr>
-			<td style="padding:20px;">
-
-				<h3>CHEMICAL MODELS</h3>
-				<ul>
-				<li>Reaction Diffusion</li>
-				<li>Leaf Venation</li>
-				<li>Diffusion Limited Aggregation</li>
-				<li>Medial Axis/Skeletonization</li>
-				<li>Cellular Automata</li>
-				</ul>
-				</span>
-				<br>
-								<h3>PHYSICS BASED SHAPE OPTIMIZATION</h3>
-				<ul>
-				<li>Hanging Chain Models</li>
-				<li>Soap Film Optimization</li>
-				</ul>
-								<br>
-				<h3>TOPOLOGICAL OPTIMIZATION</h3>
-				<ul>
-				<li>Morphological evolutionary structural optimization MESO</li>
-				<li>Bi-Directional evolutionary structural optimization BESO</li>
-				<li>Solid Isotropic Material Penalization SIMP</li>
-				</ul>
-			</td>
-			<td style="padding:20px;">
-				<span style="color:#fff;">
-				<h3><b>AGENT BASED MODELS</b></h3>
-				<ul>
-				<li>Space Colonization Algorithm</li>
-				<li>Ant Colony Optimization</li>
-				</ul>
-				</span>
-				<br>
-				<h3>HUMAN PERCEPTION, COGNITION, ACTION</h3>
-				<ul>
-				<li>Schelling Model of Separation</li>
-				<li>Neural Networks</li>
-				<li>Isovist Fields</li>
-				</ul>
-				<br>
-				<h3>EVOLUTIONARY</h3>
-				<ul>
-				<li>Genetic Algorithm</li>
-				</ul>
-			</td>
-		</tr></table>
-	</div>	
-
-	<!-- Quatar -->
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Qatar National Convention Centre by Arata Isozaki and Mitsuro Sazaki", "images/archsim/dezeen_Qatar-National-Convention-Centre-by-Arata-Isozaki_1sq.jpg", "468"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Stigmergy is a mechanism of indirect coordination, through the environment, between agents or actions. . The principle is that the trace left in the environment by an action stimulates the performance of a next action, by the same or a different agent. In that way, subsequent actions tend to reinforce and build on each other, leading to the spontaneous emergence of coherent, apparently systematic activity.", "images/archsim/Ant_Colony_2.jpg", "319"); ?>
-	</div>
-
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVideoSlide("","Ant Pheremone Video","UZ2HTTeM3aQ"); ?>
-	</div>
-
-<!-- human -->
-
-	
-	<div class="step" data-x="<?php echo $x+=2000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<h1 style="color:#fff;">OUR MODEL TAXONOMY</h1>
-		<table style="color:#aaa;">
-		<tr>
-			<td style="padding:20px;">
-
-				<h3>CHEMICAL MODELS</h3>
-				<ul>
-				<li>Reaction Diffusion</li>
-				<li>Leaf Venation</li>
-				<li>Diffusion Limited Aggregation</li>
-				<li>Medial Axis/Skeletonization</li>
-				<li>Cellular Automata</li>
-				</ul>
-				</span>
-				<br>
-								<h3>PHYSICS BASED SHAPE OPTIMIZATION</h3>
-				<ul>
-				<li>Hanging Chain Models</li>
-				<li>Soap Film Optimization</li>
-				</ul>
-								<br>
-				<h3>TOPOLOGICAL OPTIMIZATION</h3>
-				<ul>
-				<li>Morphological evolutionary structural optimization MESO</li>
-				<li>Bi-Directional evolutionary structural optimization BESO</li>
-				<li>Solid Isotropic Material Penalization SIMP</li>
-				</ul>
-			</td>
-			<td style="padding:20px;">
-				<h3><b>AGENT BASED MODELS</b></h3>
-				<ul>
-				<li>Space Colonization Algorithm</li>
-				<li>Ant Colony Optimization</li>
-				</ul>
-				<br>
-				<span style="color:#fff;">
-				<h3><b>HUMAN PERCEPTION, COGNITION, ACTION</b></h3>
-				<ul>
-				<li>Schelling Model of Separation</li>
-				<li>Neural Networks</li>
-				<li>Isovist Fields</li>
-				</ul>
-	</span>
-				<br>
-				<h3>EVOLUTIONARY</h3>
-				<ul>
-				<li>Genetic Algorithm</li>
-				</ul>
-			</td>
-		</tr></table>
-	</div>	
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Isovist Fields - a new model for spatial representation and computation", "images/archsim/Benedikt-Isovist-1979-9.jpg", "590"); ?>
-	</div>
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVimeoSlide("","Isovist Urban Analysis, ETH","74328341"); ?>
-	</div>
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Artificial Neural Network Diagram", "images/archsim/296px-Colored_neural_network.jpg", "500"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Neural net dreams generated purely from random noise, using a network trained on places by MIT Computer Science and AI Laboratory.", "images/archsim/building-dreams.png", "395"); ?>
-	</div>
-
-	
-<!-- Genetic -->
-	
-	<div class="step" data-x="<?php echo $x+=2000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<h1 style="color:#fff;">OUR MODEL TAXONOMY</h1>
-		<table style="color:#aaa;">
-		<tr>
-			<td style="padding:20px;">
-
-				<h3>CHEMICAL MODELS</h3>
-				<ul>
-				<li>Reaction Diffusion</li>
-				<li>Leaf Venation</li>
-				<li>Diffusion Limited Aggregation</li>
-				<li>Medial Axis/Skeletonization</li>
-				<li>Cellular Automata</li>
-				</ul>
-				</span>
-				<br>
-								<h3>PHYSICS BASED SHAPE OPTIMIZATION</h3>
-				<ul>
-				<li>Hanging Chain Models</li>
-				<li>Soap Film Optimization</li>
-				</ul>
-								<br>
-				<h3>TOPOLOGICAL OPTIMIZATION</h3>
-				<ul>
-				<li>Morphological evolutionary structural optimization MESO</li>
-				<li>Bi-Directional evolutionary structural optimization BESO</li>
-				<li>Solid Isotropic Material Penalization SIMP</li>
-				</ul>
-			</td>
-			<td style="padding:20px;">
-				<h3><b>AGENT BASED MODELS</b></h3>
-				<ul>
-				<li>Space Colonization Algorithm</li>
-				<li>Ant Colony Optimization</li>
-				</ul>
-				<br>
-				<h3>HUMAN PERCEPTION, COGNITION, ACTION</h3>
-				<ul>
-				<li>Schelling Model of Separation</li>
-				<li>Neural Networks</li>
-				<li>Isovist Fields</li>
-				</ul>
-	</span>
-				<br>
-				<span style="color:#fff;">
-				<h3><b>EVOLUTIONARY</b></h3>
-				<ul>
-				<li>Genetic Algorithm</li>
-				</span>
-				</ul>
-			</td>
-		</tr></table>
-	</div>	
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVideoSlide("","000 Studio, Topological Grid generic algorithm for space planning","PpKV071KXO0"); ?>
-	</div>
-
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-			<?php makeGenericSlideWithHeight("","Karl Sims, Evolving Virtual Creatures", "images/evodes/sim-3.png", "530"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-			<?php makeGenericSlideWithHeight("","Karl Sims", "images/evodes/sim-2.png", "590"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<span style="font-size:10pt;line-height:12pt;">
-		This video shows results from a research project involving simulated Darwinian evolutions of virtual block creatures. A population of several hundred creatures is created within a supercomputer, and each creature is tested for their ability to perform a given task, such the ability to swim in a simulated water environment. Those that are most successful survive, and their virtual genes containing coded instructions for their growth, are copied, combined, and mutated to make offspring for a new population. The new creatures are again tested, and some may be improvements on their parents. As this cycle of variation and selection continues, creatures with more and more successful behaviors can emerge.
-		</span>
-
-		<?php makeVideoSlide(
-		"", 
-		"Karl Sims - Evolved Virtual Creatures, Evolution Simulation, 1994", 
-		"JBgG_VSP7f8"); ?>
-		
-	</div>
-	
-	
-	
-	
-<!-- The Models -->	
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-
-		<h1 style="color:#fff;">OUR MODEL TAXONOMY</h1>
-
-		<table style="color:#aaa;">
-		<tr>
-			<td style="padding:20px;">
-
-				<h3 style="color:#fff;">CHEMICAL MODELS</h3>
-				<ul>
-				<li>Reaction Diffusion</li>
-				<li>Leaf Venation</li>
-				<li>Diffusion Limited Aggregation</li>
-				<li>Medial Axis/Skeletonization</li>
-				<li>Cellular Automata</li>
-				</ul>
-
-				<br>
-				<h3 style="color:#fff;">PHYSICS BASED SHAPE OPTIMIZATION</h3>
-				<ul>
-				<li>Hanging Chain Models</li>
-				<li>Soap Film Optimization</li>
-				</ul>
-
-				<br>
-				<h3 style="color:#fff;">TOPOLOGICAL OPTIMIZATION</h3>
-				<ul>
-				<li>Morphological evolutionary structural optimization MESO</li>
-				<li>Bi-Directional evolutionary structural optimization BESO</li>
-				<li>Solid Isotropic Material Penalization SIMP</li>
 				
+				<br>
+				
+				<h3><span style="color:#fff;">TOPOLOGICAL OPTIMIZATION</span></h3>
+				<ul>
+				<li>Solid Isotropic Material Penalization</li>
+				<li>Bi-Directional Evolutionary Structural Optimization</li>
 				</ul>
-
 			</td>
-			
 			<td style="padding:20px;">
 
-				<h3 style="color:#fff;">AGENT BASED MODELS</h3>
+				<h3><span style="color:#fff;">AGENT BASED MODELS</span></h3>
 				<ul>
-				<li>Space Colonization Algorithm</li>
 				<li>Ant Colony Optimization</li>
+				<li>Space Colonization Algorithm</li>
+				<li>Crowd Steering Behaviors</li>
 				</ul>
-
 				<br>
-				<h3 style="color:#fff;">HUMAN PERCEPTION, COGNITION, ACTION</h3>
+				
+				<h3><span style="color:#fff;">HUMAN PERCEPTION &amp; COGNITION</span></h3>
 				<ul>
-				<li>Schelling Model of Separation</li>
-				<li>Neural Networks</li>
+				<li>Convolution Neural Networks</li>
 				<li>Isovist Fields</li>
 				</ul>
-
-				<br>
-				<h3 style="color:#fff;">EVOLUTIONARY</h3>
+				
+				<Br>
+				
+				<h3><span style="color:#fff;">EVOLUTIONARY</span></h3>
 				<ul>
 				<li>Genetic Algorithm</li>
 				</ul>
 			</td>
 		</tr></table>
-	
 	</div>	
-	
-	
-	
-	
-	
-	<!-- Approach -->
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
-	
-		<b style="color:#fff;">Our Approach</b>
-		<li><span style="color:#fff;">Hands on.</span> Learn by doing and applying to proto design problems.</li>
-		<li><span style="color:#fff;">Design is always foregrounded.</span> The primary question is always how does this benefit the design process or design outcomes.</li>
-		<li><span style="color:#fff;">Computing is the 21st century literacy.</span> We need to understand the underlying mechanics of the software we use, both to push the structures of today but also to envision the structures of tomorrow.</li> 
-		<Br>
-		<?php addAccentImageWithCredit("Biometric Workshop", 'images/dd/eyetracking_820.png', 305); ?>
-
-	</div>
 	
 	<!-- Objectives -->
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
 		<b style="#fff;">Course Goals & Objectives</b>
 
-		<li><span style="color:#fff;">Learn proven models for architectural generation</span></li>
+		<li>Learn proven models for architectural generation</li>
 		<li>Learn to use simulation tools and apply them to design problems</span></li>
 		<li>Develop a critical approach to the use of simulation tools</li>
 		<li>Examine the gap between digital models and real world physical processes</li>
@@ -791,36 +159,53 @@ $x = 0;
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
 		
-		<span style="color:#fff;">Rhino Grasshopper</span><br>
-		<span style="color:#aaa;">Galapagos, Kangaroo, Custom Modules and C#</span>
+		<h1>Computing experience?</h1>
 		
 	</div>
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:60px;font-size:48px;color:#aaa;">
+		
+		<span style="color:#fff;">Software: Rhino Grasshopper</span><br>
+		<span style="color:#aaa;">Plugin: Millipede</span><br>
+		<span style="color:#aaa;">Plugin: Physarealm</span><br>
+		<span style="color:#aaa;">Plugin: Kangaroo</span><br>
+		<span style="color:#aaa;">Plugin: Galapagos</span><br>
+	</div>
+	
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide("","Topological Optimization (grasshopper + Millipede)","igRFFMSfwSQ"); ?>
+	</div>
+
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
 		
-		<span style="color:#fff;">Net Logo, Processing</span><br>
-				<span style="color:#aaa;">Interactive demos, explainers, model code<span>
+		<span style="color:#fff;">+ Net Logo, Processing</span><br>
+		<span style="color:#aaa;">Interactive demos, explainers, model code<span>
 	</div>
+
+	<!-- READING???? -->
+
+
+
+
+
+
+
 
 	<!-- Project -->
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		Semester Project
+
+		<b>Semester Project</b>
 
 		<li>Work in small groups (2) or individually</li>
-		<li>A focused application of performance in the evolution of a design prototype</li>
-		<li>Clear definition and evaluation of a performance-based methodology</li>
+		<li>A focused application of one of the class models or pre-approved other</li>
+		<li>Clearly defined goals and benchmarking of results</li>
 		<li>Compile simulation results (images, data, diagrams) in a tech presentation</li>
-		<li>Should reference and build upon one of the presented models</li>
 	</div>
 	
-	
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
-		
-		Computing experience?
-		
-	</div>
+
 
 	<!-- Past Work -->
 	
@@ -851,65 +236,288 @@ $x = 0;
 		?>
     </div>    
 
-	<!-- Closing -->	
-	<div class="step"  style="font-size:18pt;"  data-x="<?php echo $x+=1000;?>" data-y="0" data-z="0" data-rotate="0" data-scale="1.0">
-		Why Now?<Br>
 
-		<li>Explosion of Computing Power, Highly Optimized Hardware</li>
-		<li>CNC Fabrication &amp; Additive Manufacturing</li>
-		<li>Tough math is largely abstracted</li>
-		<li>Accessibility through Grasshopper</li>
-	
+	<!-- The Models -->	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:30px;font-size:20px;">
+		<h1 style="color:#fff;">OUR MODEL TAXONOMY</h1>
+		<table style="color:#aaa;">
+		<tr>
+			<td style="padding:20px;">
+
+				<h3><span style="color:#fff;">CHEMICAL MODELS</span></h3>
+				<ul>
+				<li>Reaction Diffusion</li>
+				<li>Cellular Automata</li>
+				<li>Diffusion Limited Aggregation</li>
+				<li>Leaf Venation</li>
+				<li>Medial Axis Skeletonization</li>
+				</span>
+				</ul>
+				<br>
+				
+				<h3><span style="color:#fff;">PHYSICS BASED SHAPE OPTIMIZATION</span></h3>
+				<ul>
+				<li>Hanging Chain Models</li>
+				<li>Soap Film Optimization</li>
+				</ul>
+				</span>
+				
+				<br>
+				
+				<h3><span style="color:#fff;">TOPOLOGICAL OPTIMIZATION</span></h3>
+				<ul>
+				<li>Solid Isotropic Material Penalization</li>
+				<li>Bi-Directional Evolutionary Structural Optimization</li>
+				</ul>
+			</td>
+			<td style="padding:20px;">
+
+				<h3><span style="color:#fff;">AGENT BASED MODELS</span></h3>
+				<ul>
+				<li>Ant Colony Optimization</li>
+				<li>Space Colonization Algorithm</li>
+				<li>Crowd Steering Behaviors</li>
+				</ul>
+				<br>
+				
+				<h3><span style="color:#fff;">HUMAN PERCEPTION &amp; COGNITION</span></h3>
+				<ul>
+				<li>Convolution Neural Networks</li>
+				<li>Isovist Fields</li>
+				</ul>
+				
+				<Br>
+				
+				<h3><span style="color:#fff;">EVOLUTIONARY</span></h3>
+				<ul>
+				<li>Genetic Algorithm</li>
+				</ul>
+			</td>
+		</tr></table>
 	</div>	
 	
-	<!-- Schedule -->	
+  	<!-- DLA -->
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Aggregation: Complexity out of Simplicity, Andy Lomas 2005", "images/archsim/aggregation_006.jpg", "644"); ?>
+	</div>
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide("","Aggregation: Complexity out of Simplicity, Andy Lomas 2005","6Vg54g51nb4"); ?>
+	</div>
+
+	<!-- reaction diffusion -->
 	
-		<h2>Schedule</h2>
-		<div style="float:left;width:240px;color:#ccc;">
-			Class 1<br>
-			Class 2<br>
-			Class 3<br>
-			Class 4<br>
-			Class 5<br>
-			Class 6<br>
-			Class 7<br>
-			Class 8<br>
-			Class 9<br>
-			Class 10<br>
-			Class 11<br>
-			Class 12<br>
-			Class 13<br>
-		</div>
-	
-		<div style="float:left;color:#ccc;">
-		
-			Course Introduction, Q&A<br>
-			Presentation and Demo: Chemical Models<br>
-			<span style="color:#fff;">Workshop: “Hello World” Grashopper</span><br> <!-- Grashopper as Simulation and Visualization Engine<br> -->
-			Presentation and Demo: Physics Based Models<br>
-			<span style="color:#fff;">Workshop: Chain Models and Kangaroo Physics</span><br>
-			Presentation and Demo: Agent/Foraging Models<br>
-			Project Meetings<br>
-			Presentation: Genetic and Evolutionary Models<br>
-			<span style="color:#fff;">Workshop: Galapagos Grashopper</span><br>
-			Project Meetings<br>
-			Presentation: Models of Human Behavior<br>
-			<span style="color:#fff;">Workshop: Isovist</span><br>
-			Project Meetings<br>
-			Reading Roundtable Discussion<br>
-		</div>	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Reaction Diffusion Patterns", "images/archsim/Diffusion_1.png", "620"); ?>
+	</div>
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Reaction Diffusion Algorithm Explained", "images/archsim/Reaction_training.jpg", "511"); ?>
 	</div>
 	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide("","Reaction-Diffusion Example, Gray-Scott model, Karl Sims","8dTmUr5qKvI"); ?>
+	</div>
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Reaction Diffusion with biases", "images/archsim/diffusion_patterns.jpg", "647"); ?>
+	</div>
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Leaf Venation, Nervous Systems", "images/archsim/folium_patterns.jpg", "517"); ?>
+	</div>
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Diffusion in 3D, Michael Hansmeyer", "images/archsim/voxels1.jpg", "400"); ?>
+	</div>
+
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<b>Dynamic relaxation</b> is a numerical method, which, among other things, can be used do "form-finding" for cable and fabric structures. The aim is to find a geometry where all forces are in equilibrium. In the past this was done by direct modelling, using hanging chains and weights (see Gaudi), or by using soap films, which have the property of adjusting to find a "minimal surface".
+		<?php makeGenericSlideWithHeight("","Rhino Grasshopper, Kangaroo output", "images/archsim/7e0090ee96e1026ae5a303b2eeff60da.jpg", "330"); ?>
+	</div>
+
+	<!-- Soft Body Physics Cadenary Paper -->
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	Soft Body Dynamics
+		<?php
+		$hanging = array(
+					'images/archsim/Elastically_Deformable_Models-1.jpg',
+					'images/archsim/Elastically_Deformable_Models-2.jpg');
+		makeImageGrid("", "", $hanging, 2); ?>
+	</div>
+
+	<!-- Soft Body Physics Cadenary Paper -->
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php
+		$hanging = array(
+					'images/dd/killian-1.png',
+					'images/dd/killian-2.png');
+		makeImageGrid("", "A funicular structure could be said to be a structure which can achieve equilibrium state by adopting a mechanism of a 'right' form (shape/geometry) corresponding to the applied loads", $hanging, 2); ?>
+	</div>
+
+	<!-- Kangaroo Video -->
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVimeoSlide("","","8842130"); ?> <!-- alt: 8706003 -->
+	</div>
+	
+	<!-- BESO -->
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("Evolutionary Structural Optimization","Luca Frattari for solidThinking Inspire ", "images/archsim/28ea0440327b205666cc0b3ee93bb6e4.jpg", "559"); ?>
+	</div>
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide("","SOLID THINKING INSPIRE INTRODUCTION","QnfkEzoD_ZA"); ?>
+	</div>
+
+	<!-- Sawapan Structural Optimization -->
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide("","Sawapan TopoStruct Software","OCc-s6mxQqc"); ?>
+	</div>
+
+	<!-- Bone Chair -->
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","", "images/dd/soft_kill-1.png", "811"); ?>
+	</div>
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVimeoSlide("","Bone Chair, Joris Laarman","146039736"); ?>
+	</div>
+	
+	<!-- microstructures and FGM -->
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","BESO in Topogly Optimization of Microstructure", 
+										 "images/archsim/BESO in Topogly Optimization of Microstructure-202.jpg", "496"); ?>
+	</div>
+	
+
+	<!-- stigmergy -->
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("Agent Based Approaches: ACO","Stigmergy is a mechanism of indirect coordination, through the environment, between agents or actions. . The principle is that the trace left in the environment by an action stimulates the performance of a next action, by the same or a different agent. In that way, subsequent actions tend to reinforce and build on each other, leading to the spontaneous emergence of coherent, apparently systematic activity.", "images/archsim/Ant_Colony_2.jpg", "319"); ?>
+	</div>
+
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","", "images/archsim/The_Ant_System-2.png", "560"); ?>
+	</div>
+
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide("","Ant Pheremone Video","UZ2HTTeM3aQ"); ?>
+	</div>
+
+	
+	<!-- Quatar -->
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Qatar National Convention Centre by Arata Isozaki and Mitsuro Sazaki", "images/archsim/dezeen_Qatar-National-Convention-Centre-by-Arata-Isozaki_1sq.jpg", "468"); ?>
+	</div>
+	
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Qatar National Convention Centre by Arata Isozaki and Mitsuro Sazaki", "images/archsim/sasaki.png", "600"); ?>
+	</div>
+	
+
+
+	<!-- virtual creatures -->
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("Evolutionary Approaches","Karl Sims, Evolving Virtual Creatures", "images/evodes/sim-3.png", "530"); ?>
+	</div>
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+			<?php makeGenericSlideWithHeight("","Karl Sims", "images/evodes/sim-2.png", "590"); ?>
+	</div>
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<span style="font-size:10pt;line-height:12pt;">
+		This video shows results from a research project involving simulated Darwinian evolutions of virtual block creatures. A population of several hundred creatures is created within a supercomputer, and each creature is tested for their ability to perform a given task, such the ability to swim in a simulated water environment. Those that are most successful survive, and their virtual genes containing coded instructions for their growth, are copied, combined, and mutated to make offspring for a new population. The new creatures are again tested, and some may be improvements on their parents. As this cycle of variation and selection continues, creatures with more and more successful behaviors can emerge.
+		</span>
+
+		<?php makeVideoSlide(
+		"", 
+		"Karl Sims - Evolved Virtual Creatures, Evolution Simulation, 1994", 
+		"JBgG_VSP7f8"); ?>
+		
+	</div>
+
+	<!-- neural networks -->
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Artificial Neural Network Diagram", "images/archsim/296px-Colored_neural_network.jpg", "500"); ?>
+	</div>
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("","Neural net dreams generated purely from random noise, using a network trained on places by MIT Computer Science and AI Laboratory.", "images/archsim/building-dreams.png", "395"); ?>
+	</div>
+	
+	
+	<!-- The Models -->	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:30px;font-size:20px;">
+		<h1 style="color:#fff;">OUR MODEL TAXONOMY</h1>
+		<table style="color:#aaa;">
+		<tr>
+			<td style="padding:20px;">
+
+				<h3><span style="color:#fff;">CHEMICAL MODELS</span></h3>
+				<ul>
+				<li>Reaction Diffusion</li>
+				<li>Cellular Automata</li>
+				<li>Diffusion Limited Aggregation</li>
+				<li>Leaf Venation</li>
+				<li>Medial Axis/Skeletonization</li>
+				</span>
+				</ul>
+				<br>
+				
+				<h3><span style="color:#fff;">PHYSICS BASED SHAPE OPTIMIZATION</span></h3>
+				<ul>
+				<li>Hanging Chain Models</li>
+				<li>Soap Film Optimization</li>
+				</ul>
+				</span>
+				<br>
+				<h3><span style="color:#fff;">TOPOLOGICAL OPTIMIZATION</span></h3>
+				<ul>
+				<li>Solid Isotropic Material Penalization</li>
+				<li>Bi-Directional Evolutionary Structural Optimization</li>
+				</ul>
+			</td>
+			<td style="padding:20px;">
+
+				<h3><span style="color:#fff;">AGENT BASED MODELS</span></h3>
+				<ul>
+				<li>Ant Colony Optimization</li>
+				<li>Space Colonization Algorithm</li>
+				<li>Crowd Steering Behaviors</li>
+				</ul>
+				<br>
+				
+				<h3><span style="color:#fff;">HUMAN PERCEPTION &amp; COGNITION</span></h3>
+				<ul>
+				<li>Neural Networks</li>
+				<li>Isovist Fields</li>
+				</ul>
+				
+				<Br>
+				
+				<h3><span style="color:#fff;">EVOLUTIONARY</span></h3>
+				<ul>
+				<li>Genetic Algorithm</li>
+				</ul>
+			</td>
+		</tr></table>
+	</div>	
 
 	<!-- Next Class -->
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;	">
-
-      
 	<span style="font-size:48pt;">		Questions?		</span><Br><Br>
 
-  <br>
+	  <br>
 
 		<b>For Next Week</b>		
 		<li>Bring a computer with Rhino Grasshopper</li>
@@ -927,7 +535,79 @@ $x = 0;
 	</div>
 	
 
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 
+		<h2>Schedule</h2>
+		<div style="float:left;width:200px;color:#ccc;">
+			Class 1<br>
+			Class 2<br>
+			Class 3<br>
+			Class 4<br>
+			Class 5<br>
+			Class 6 MT<br>
+			Class 7 MT<br>
+			Class 8 Kinne<br>
+			Class 9<br>
+			Class 10<br>
+			Class 11<br>
+			Class 12<br>
+			Class 13<br>
+			Paper<br>
+		</div>
+
+		<div style="float:left;color:#aaa;width:620px;">
+	
+			Course Introduction, Q&A<br>
+			<span style="color:#fff;">Workshop: Kangaroo for GH</span><br>
+			Presentation: Chemical &amp; Physics Based Models<Br>
+			<span style="color:#fff;">Workshop: Millipede for GH</span><br>
+			Presentation: Topological Optimization<br>
+			Roundtable discussion<br>
+			<span style="color:#fff;">Workshop: Physarealm for GH</span><br>
+			Project Meeting (or Abstract due if Kinne)<br>
+	Presentation: Agent Based Models &amp; Genetic Algorithms<br>
+			<span style="color:#fff;">Workshop: Galapagos for GH</span><br>
+			Project Meetings, Grasshopper Help<br>
+			Project Meetings, Technical Presentation Draft<br>
+			Technical Presentations, Class Close Out<br>
+			Email Submission Deadline is May #
+		</div>	
+	</div>
+
+<?php
+
+function archSimDefinition($word, $definition){
+	echo '<span style="line-height:16pt; font-size:16pt;"><b>'. $word . '</b> <i style="color:#aaa;">'.$definition.'</i><br><br></span>';
+}
+
+function archSimPaper($author, $title, $year){
+	echo '<span style="line-height:16pt; font-size:16pt;"><b>'. $author . '</b>, '.$title.'<i> ['.$year.']</i><br><br></span>';
+}
+?>
+
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+
+		<?php archSimPaper("Turing", "The Chemical Basis for Morphogenesis", "1952"); ?>
+		<?php archSimPaper("Gierer and Meinhardt", "A Theory of Biological Pattern Formation", "1972"); ?>
+		<?php archSimPaper("Gray Scott", "Autocatalytic reactions in the isothermal, continuous stirred tank reactor", "1984"); ?>
+		<?php archSimPaper("Pearson", "Complex Patterns in a Simple System", "1993"); ?>
+
+		<?php archSimPaper("Killian", "Particle-Spring Systems For Structural Form Finding, Killian", "2006"); ?>
+		<?php archSimPaper("Schrandt &amp; Ulam", "On Recursively Defined Geometrical Objects and Patterns", "1970"); ?>
+		<?php archSimPaper("Wolfram", "Cellular Automata as Models of Complexity", "1984"); ?>
+		<?php archSimPaper("Witten &amp; Sander", "Diffusion-Limited Aggregation, a Kinetic Critical Phenomenon", "1984"); ?>
+
+		<?php archSimPaper("Maxwell", "On Reciprocal Figures, Frames, and Diagrams of Forces", "1870"); ?>
+		<?php archSimPaper("Michell", "The limits of economy of material in frame-structures", "1904"); ?>
+		<?php archSimPaper("Bendsøe and Kikuchi ", "Generating optimal topologies in structural design", "1988"); ?>
+		<?php archSimPaper("Xie", "A simple evolutionary procedure for structural optimization (BESO)", "1993"); ?>
+		<?php archSimPaper("Dorigo", "The Any System", "1996"); ?>
+		<?php archSimPaper("Luh Lin", "Structural topology optimization using Ant colony algorithm", "2009"); ?>
+		
+		<?php archSimPaper("Karl Sims","Evolving 3D Morphology and Behavior by Competition", "1994"); ?>
+		<?php archSimPaper("John Holland", "Genetic Algorithms", "2014"); ?>
+		<?php archSimPaper("M L Bendikt", "Isovist &amp; Isovist Fields", "1979"); ?>
+</div>
 
 
 
