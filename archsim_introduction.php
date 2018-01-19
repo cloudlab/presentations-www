@@ -50,26 +50,25 @@ $x = 0;
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 
-		<p>http://proxyarch.com/archsim.pdf</b>
 		<p style="color:#aaa;"><span style="color:#fff;">This seminar introduces a powerful set of models to simulate, predict and even improve architectural design. </span>
 		We look at models that reduce systems to their most critical relationships while opening them to new conjectures and productivity. 
 		Pulled from the worlds of material computing, biomimetics, computational geometry and data science, these simulation-based models are 
 		well documented and highly applicable to architectural design.
 		</p>
 		<br>
-		<?php addAccentImageWithCreditAndHeight("", 'images/archsim/archsim-SyllabusAccent.png', 620,350,100); ?>
+		<?php addAccentImageWithCreditAndHeight("Class Syllabus at http://proxyarch.com/archsim.pdf", 'images/archsim/archsim-SyllabusAccent.png', 620,350,100); ?>
 
 	</div>
 	
 	<!-- Whats a model? -->
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#ccc;">
 
-	<b style="font-size:40pt; ">What is a model?</b>
+	<b style="font-size:40pt;color:#fff;">What is a model?</b>
 	<br>
 	<br>
 	<span style="font-size:18pt;">
-	<i>A model</i> is a task-driven, purposeful simplification or abstraction<br>
-	<i>A simulation</i> is an instance of the model
+	<span style="color:#fff;">A model</span> is a task-driven, purposeful simplification or abstraction<br>
+	<span style="color:#fff;">A simulation</span> is an unpacked instance of a model
 	</span>
 	<br><br>
 
@@ -84,7 +83,7 @@ $x = 0;
 	<!-- The Models -->	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:30px;font-size:20px;">
 		<h1 style="color:#fff;">OUR MODEL TAXONOMY</h1>
-		<table style="color:#aaa;">
+		<table style="color:#ccc;">
 		<tr>
 			<td style="padding:20px;">
 
@@ -126,7 +125,7 @@ $x = 0;
 				
 				<h3><span style="color:#fff;">HUMAN PERCEPTION &amp; COGNITION</span></h3>
 				<ul>
-				<li>Convolution Neural Networks</li>
+				<li>Convolutional Neural Networks</li>
 				<li>Isovist Fields</li>
 				</ul>
 				
@@ -142,8 +141,8 @@ $x = 0;
 	
 	<!-- Objectives -->
 
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
-		<b style="#fff;">Course Goals & Objectives</b>
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#ccc;">
+		<b style="color:#fff;">Course Goals & Objectives</b>
 
 		<li>Learn proven models for architectural generation</li>
 		<li>Learn to use simulation tools and apply them to design problems</span></li>
@@ -163,25 +162,36 @@ $x = 0;
 		
 	</div>
 	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:60px;font-size:48px;color:#aaa;">
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:44px;font-size:36px;color:#aaa;">
 		
-		<span style="color:#fff;">Software: Rhino Grasshopper</span><br>
-		<span style="color:#aaa;">Plugin: Millipede</span><br>
-		<span style="color:#aaa;">Plugin: Physarealm</span><br>
-		<span style="color:#aaa;">Plugin: Kangaroo</span><br>
-		<span style="color:#aaa;">Plugin: Galapagos</span><br>
+		<span style="color:#fff;">Software: Rhino Grasshopper</span><br><br>
+		
+		Plugins<br>
+		<span style="color:#fff;">Millipede - Finite Element Models</span><br>
+		<span style="color:#fff;">Physarealm - Agent Based Models</span><br>
+		<span style="color:#fff;">Kangaroo - Physics Based Models</span><br>
+		<span style="color:#fff;">Galapagos - Evolutionary Models</span><br>
+		
+		<Br>
+		Utilities<br>
+		<span style="color:#fff;">
+		MeshEdit<br>
+		Net Logo<br>
+		Processing<br>
+		</span>
 	</div>
 	
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVideoSlide("","Topological Optimization (grasshopper + Millipede)","igRFFMSfwSQ"); ?>
+		<?php makeVideoSlide("","Topological Optimization (Rhino Grasshopper + Millipede)","igRFFMSfwSQ"); ?>
+	</div>
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide("","Agent based modeling (Rhino Grasshopper + Physarealm)","BM0Wdgoifr0"); ?>
 	</div>
 
-
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;color:#aaa;">
-		
-		<span style="color:#fff;">+ Net Logo, Processing</span><br>
-		<span style="color:#aaa;">Interactive demos, explainers, model code<span>
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVimeoSlide("","Physics based modeling (Rhino Grasshopper + Kangaroo)","8842130"); ?> <!-- alt: 8706003 -->
 	</div>
 
 	<!-- READING???? -->
@@ -298,7 +308,7 @@ $x = 0;
 	
   	<!-- DLA -->
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Aggregation: Complexity out of Simplicity, Andy Lomas 2005", "images/archsim/aggregation_006.jpg", "644"); ?>
+		<?php makeGenericSlideWithHeight("Chemical: Diffusion Limited Aggregation","Aggregation: Complexity out of Simplicity, Andy Lomas 2005", "images/archsim/aggregation_006.jpg", "644"); ?>
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
@@ -308,7 +318,7 @@ $x = 0;
 	<!-- reaction diffusion -->
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Reaction Diffusion Patterns", "images/archsim/Diffusion_1.png", "620"); ?>
+		<?php makeGenericSlideWithHeight("Chemical: Reaction Diffusion","Reaction Diffusion Patterns", "images/archsim/Diffusion_1.png", "620"); ?>
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
@@ -333,7 +343,8 @@ $x = 0;
 
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-	<b>Dynamic relaxation</b> is a numerical method, which, among other things, can be used do "form-finding" for cable and fabric structures. The aim is to find a geometry where all forces are in equilibrium. In the past this was done by direct modelling, using hanging chains and weights (see Gaudi), or by using soap films, which have the property of adjusting to find a "minimal surface".
+	<span style="font-size:36pt;line-height:48pt;">Physics Based Models</span><Br>
+	<b>Dynamic relaxation</b> is a numerical method, which, among other things, can be used do "form-finding" for cable and fabric structures. The aim is to find a geometry where all forces are in equilibrium.
 		<?php makeGenericSlideWithHeight("","Rhino Grasshopper, Kangaroo output", "images/archsim/7e0090ee96e1026ae5a303b2eeff60da.jpg", "330"); ?>
 	</div>
 
@@ -367,10 +378,6 @@ $x = 0;
 		<?php makeGenericSlideWithHeight("Evolutionary Structural Optimization","Luca Frattari for solidThinking Inspire ", "images/archsim/28ea0440327b205666cc0b3ee93bb6e4.jpg", "559"); ?>
 	</div>
 
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVideoSlide("","SOLID THINKING INSPIRE INTRODUCTION","QnfkEzoD_ZA"); ?>
-	</div>
-
 	<!-- Sawapan Structural Optimization -->
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeVideoSlide("","Sawapan TopoStruct Software","OCc-s6mxQqc"); ?>
@@ -385,20 +392,29 @@ $x = 0;
 		<?php makeVimeoSlide("","Bone Chair, Joris Laarman","146039736"); ?>
 	</div>
 	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide("","SOLID THINKING INSPIRE INTRODUCTION","QnfkEzoD_ZA"); ?>
+	</div>
+
+
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeGenericSlideWithHeight("","An Iterative Structural Optimization Process", "images/archsim/multiphysics_optimization.png", "481"); ?>
+</div>
+
+<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+	<?php makeGenericSlideWithHeight("","", "images/archsim/2007_WCSMO7-5.png", "900"); ?>
+</div>
+
+
 	<!-- microstructures and FGM -->
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("","BESO in Topogly Optimization of Microstructure", 
 										 "images/archsim/BESO in Topogly Optimization of Microstructure-202.jpg", "496"); ?>
 	</div>
 	
-
 	<!-- stigmergy -->
 	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("Agent Based Approaches: ACO","Stigmergy is a mechanism of indirect coordination, through the environment, between agents or actions. . The principle is that the trace left in the environment by an action stimulates the performance of a next action, by the same or a different agent. In that way, subsequent actions tend to reinforce and build on each other, leading to the spontaneous emergence of coherent, apparently systematic activity.", "images/archsim/Ant_Colony_2.jpg", "319"); ?>
-	</div>
 
-	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("","", "images/archsim/The_Ant_System-2.png", "560"); ?>
 	</div>
@@ -408,6 +424,10 @@ $x = 0;
 		<?php makeVideoSlide("","Ant Pheremone Video","UZ2HTTeM3aQ"); ?>
 	</div>
 
+
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeGenericSlideWithHeight("Agent Based: Ant Colony Optimization","Stigmergy is a mechanism of indirect coordination, through the environment, between agents or actions. The principle is that the trace left in the environment by an action stimulates the performance of a next action, by the same or a different agent. In that way, subsequent actions tend to reinforce and build on each other, leading to the spontaneous emergence of coherent, apparently systematic activity.", "images/archsim/Ant_Colony_2.jpg", "319"); ?>
+	</div>
 	
 	<!-- Quatar -->
 	
@@ -425,7 +445,7 @@ $x = 0;
 	<!-- virtual creatures -->
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("Evolutionary Approaches","Karl Sims, Evolving Virtual Creatures", "images/evodes/sim-3.png", "530"); ?>
+		<?php makeGenericSlideWithHeight("Evolutionary Models","Karl Sims, Evolving Virtual Creatures", "images/evodes/sim-3.png", "530"); ?>
 	</div>
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
@@ -447,7 +467,7 @@ $x = 0;
 	<!-- neural networks -->
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeGenericSlideWithHeight("","Artificial Neural Network Diagram", "images/archsim/296px-Colored_neural_network.jpg", "500"); ?>
+		<?php makeGenericSlideWithHeight("AI &amp; Neural Networks","Artificial Neural Network Diagram", "images/archsim/296px-Colored_neural_network.jpg", "500"); ?>
 	</div>
 	
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
