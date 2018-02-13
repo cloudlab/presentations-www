@@ -108,7 +108,7 @@ $x = 0;
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 	FOR TODAY...<Br><br>
 	Download Netlogo https://ccl.northwestern.edu/netlogo<BR><br>
-	5 new models<br>
+	4 models<br>
 	...<b>chemistry</b> to <b>physics</b><Br>
 	...<b>cellular</b> structures to <b>vector</b> structures<Br>
 	...<b>very small</b>  to <b>very large</b><Br>
@@ -131,10 +131,9 @@ $x = 0;
 		<?php archSimPaper("Turing", "The Chemical Basis for Morphogenesis", "1952"); ?>
 		<?php archSimPaper("Schrandt &amp; Ulam", "On Recursively Defined Geometrical Objects and Patterns", "1968"); ?>
 		<?php archSimPaper("Gierer and Meinhardt", "A Theory of Biological Pattern Formation", "1972"); ?>
-		<?php archSimPaper("Gray Scott", "Autocatalytic reactions in the isothermal, continuous stirred tank reactor", "1984"); ?>
 		<?php archSimPaper("Wolfram", "Cellular Automata as Models of Complexity", "1984"); ?>
-		<?php archSimPaper("Pearson", "Complex Patterns in a Simple System", "1993"); ?>
 		<?php archSimPaper("Witten &amp; Sander", "Diffusion-Limited Aggregation, a Kinetic Critical Phenomenon", "1984"); ?>
+		<?php archSimPaper("Pearson", "Complex Patterns in a Simple System", "1993"); ?>
 		<?php archSimPaper("Killian", "Particle-Spring Systems For Structural Form Finding, Killian", "2006"); ?>
 	</div>
 	
@@ -247,6 +246,10 @@ function archSimPaper($author, $title, $year){
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
+		<?php makeVideoSlide("","Reaction-Diffusion Example, Gray-Scott model, Karl Sims","8dTmUr5qKvI"); ?>
+	</div>
+	
+	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("","Reaction Diffusion Patterns", "images/archsim/Diffusion_1.png", "620"); ?>
 	</div>
 
@@ -260,10 +263,6 @@ function archSimPaper($author, $title, $year){
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
 		<?php makeGenericSlideWithHeight("","Reaction Diffusion Algorithm Explained", "images/archsim/Reaction_training.jpg", "511"); ?>
-	</div>
-	
-	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
-		<?php makeVideoSlide("","Reaction-Diffusion Example, Gray-Scott model, Karl Sims","8dTmUr5qKvI"); ?>
 	</div>
 
 	<div class="step" data-x="<?php echo $x+=1000;?>" data-y="0" style="line-height:36px;font-size:24px;">
