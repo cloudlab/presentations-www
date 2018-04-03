@@ -41,7 +41,7 @@ $x = 0;
 			Class 5<br>
 			Class 6 MT<br>
 			Class 7 MT<br>
-			Class 8 Kinne<br>
+						<span style="color:#666;">Class 8 Kinne</span><br>
 			Class 9<br>
 			Class 10<br>
 			Class 11<br>
@@ -58,17 +58,16 @@ $x = 0;
 			<span style="color:#fff;">Workshop: Millipede for GH</span><br>
 			Presentation: Topological Optimization<br>
 			Roundtable discussion<br>
-			<span style="color:#fff;">Workshop: Physarealm for GH</span><br>
-			Project Meeting (or Abstract due if Kinne)<br>
-	Presentation: Agent Based Models &amp; Genetic Algorithms<br>
 			<span style="color:#fff;">Workshop: Galapagos for GH</span><br>
-			Project Meetings, Grasshopper Help<br>
-			Project Meetings, Technical Presentation Draft<br>
-			Technical Presentations, Class Close Out<br>
-			Email Submission Deadline is May #
+			<span style="color:#666;">Project Meeting (or Abstract due if Kinne)</span><br>
+			Project Meetings<br>
+			<span style="color:#fff;">Paper Workshop</span><br>
+			Presentation: Agent Based Models &amp; Genetic Algorithms<br>
+			<span style="color:#fff;">Workshop: Grasshopper Help</span><br>
+			Project Meetings, Class Close Out<br>
+			Email Submission Deadline is May 4th
 		</div>	
 	</div>
-    
 </div>
 
 <div class="hint">
